@@ -90,3 +90,692 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: small-duration
+  examples: |
+    - Less than 2 days
+    - Less than 3 days
+    - 2 days
+    - 1 day
+    - one
+    - two
+    - three
+    - one day
+    - two days
+    - three days
+    - for three days
+    - for two days
+    - for a day
+    - for one day
+    - 1
+    - 2
+    - 3
+    - 3 days
+    - less than a day
+    - less than 2 days
+    - less than 3 days
+    - /small-duration
+
+- intent: long-duration
+  examples: |
+    - 3 days or more
+    - more than 3 days
+    - 4 days
+    - 5 days
+    - 6 days
+    - 1 week
+    - half week
+    - four days
+    - one month
+    - one year
+    - year
+    - month
+    - months
+    - years
+    - days
+    - several days
+    - several months
+    - several weeks
+    - /long-duration
+
+- intent: age-below-18
+  examples: |
+    - below 18
+    - below 10
+    - 10-20
+    - 18-
+    - i am underage
+    - below 15
+    - /age-below-18
+
+- intent: age-above-18
+  examples: |
+    - above 18
+    - above 10
+    - 20+
+    - i am adult
+    - i am above 60
+    - /age-above-18
+
+- intent: problem_common-cold
+  examples: |
+    - i have running nose
+    - i have cold
+    - i am feeling very cold
+    - i have cold and cough
+    - i feel cold
+    - cold
+    - cough
+    - i have running nose
+    - my nose is blocked and itchy
+    - my nose is red and i am sneezing a lot
+    - i have common cold and my body temperature is high
+    - i have dripping nose and fever
+
+- intent: problem_conjunctivits
+  examples: |
+    - red eyes
+    - redness in eye
+    - my eyes are red
+    - redening of eyes
+    - my eyes are growing red
+    - my eyes are watery
+    - watery eyes
+    - wet eyes
+    - teary eyes
+    - itching in eyes
+    - my eyes are itching
+    - scratchy eyes
+    - conjuctivitis in eyes
+    - my eyes are scratching
+    - my eyes are red and its scratching
+    - i think i have conjunctivitis  
+    - feeling painful due to conjuctivitis
+    - how to cure my conjuctivitis
+    - i have been recently suffering with conjuctivitis  
+    - i am suffering from conjuctivitis
+
+- intent: problem_gerd
+  examples: |
+    - heartburn
+    - burning sensation in chest
+    - difficulty while swallowing
+    - burning chest
+    - pain while swallowing
+    - regurgitation of food
+    - sour liquid
+    - lump in throat
+    - stuckness in throat
+    - i am having problem in sweeling
+    - i am having problem in swallowing
+    - sor liquid
+    - hart burn
+    - lump throat
+    - chest burning
+    - i am having burning sensation in chest
+    - i feel something in throat
+    - painful swallowing
+    - i am suffering from gerd
+    - how to cure my gerd
+    - feeling problematic due to gerd
+    - lately going through gerd
+    - i think i have gerd
+    - i have been recently suffering with gerd
+
+
+
+- intent: problem_diabetes
+  examples: |
+    - i am facing urinating tendency
+    - i am having peeing tenedency
+    - i always feel like urinating
+    - i always feel like peeing
+    - i repeatedly go for urinating
+    - i repeatedly pee
+    - i feeling thirsty at all times
+    - i am always thirsty
+    - i feel like drinking water always
+    - i am peeing too much
+    - weight loss
+    - i had weightloss
+    - decrease in weight
+    - i am losing weight without exercise
+    - i feel hungry always
+    - feeling apetite
+    - exhausted
+    - i feel tired
+    - i get exhausted in little amount of work
+    - i think i have diabetes
+    - going through diabetes
+    - what to do in diabetes
+    - painful diabetes
+    - i am suffering from diabetes
+    - i have been recently suffering with diabetes
+
+- intent: problem_fungal-infection
+  examples: |
+    - irritation in skin
+    - i have scaly skin
+    - my skin is scaly skin
+    - scaly skn
+    - scly skn
+    - i have redness on skin
+    - red skin
+    - colour of skin becoming red
+    - redness of skin
+    - itching in hands and legs
+    - iching on skin
+    - i have itchiness everywhere
+    - i have swelling skin
+    - swelled skin
+    - blisters on my skin
+    - i have skin blsters
+    - blstrs
+    - my skin is irritating
+    - i have irritation
+    - i have scaly skin
+    - my skin is scaly and itchy
+    - i am having itching
+    - i am having blisters
+    - i have blisters
+    - the colour of my skin is becoming red
+    - i think i have fungal infection
+    - i am suffering from fungal infection
+    - i have been recently suffering with fungal infection
+    - feel like fungal infection
+    - i got fungal infection
+
+
+- intent: problem_chickenpox
+  examples: |
+    - I have skin rashes
+    - I have rashes on my skin
+    - I always feel itching
+    - I always feel fatigue
+    - I always feel overtired
+    - swelled lymph nodes
+    - I have swelled lymph nodes
+    - I have swelled lymph nodes all over my body
+    - I have red spots
+    - I have red spots all over my body
+    - loss of appetite
+    - malaise
+    - I always feel malaise
+    - lethargy
+    - I always feel lethargy
+    - i think i have chickenpox
+    - i am suffering from chickenpox
+    - severe chickenpox suffering  
+    - been through chickenpox lately
+    - i have been recently suffering with chickenpox
+
+- intent: problem_typhoid
+  examples: |
+    - I always feel vomiting
+    - I have high body temperature and vomiting
+    - high fever
+    - I am having constipation and vomiting
+    - constipation
+    - I am having abdominal pain
+    - I am experiencing pain in my abdomen
+    - I am having belly pain
+    - I am having pain in my belly
+    - I am having fever and vomiting
+    - My body is having chills
+    - I am having chills
+    - i think i have typhoid
+    - going through typhoid
+    - i have troubles due to typhoid
+    - i am suffering from typhoid
+    - i have been recently suffering with typhoid
+
+
+- intent: problem_psoriasis
+  examples: |
+    - I have joint pains
+    - I am having pain in my joints
+    - Joint pain
+    - skin peeling
+    - my skin is peeling so much
+    - I am having small dents in nails
+    - small dents in nails
+    - my nails are having small dents
+    - silver like dusting
+    - I am having inflammatory nails
+    - inflammatory nails
+    - my nails are inflammatory
+    - i think i have psoriasis
+    - i am suffering from psoriasis
+    - what to do is psoriasis
+    - i got problem of psoriasis
+    - i have been recently suffering with psoriasis
+
+- intent: problem_obesity
+  examples: |
+    - I am gaining more fat day by day
+    - I am overweight
+    - I have a pot belly
+    - overweight
+    - pot belly
+    - i have too much body fat
+    - i am fat
+    - I am having high blood pressure
+    - have a habit of binge eating
+    - I mostly feel breathlessness
+    - I am having difficulties in doing physical activities
+    - I always get sweated
+    - i think i have obesity
+    - going through obesity
+    - what to do in obesity sufferings
+    - i am suffering from obesity
+    - i have been recently suffering with obesity
+
+
+- intent: problem_insomnia
+  examples: |
+    - I find it difficult to fall asleep
+    - I lie awake for long periods at night
+    - I wake up several times during the night
+    - I wake up early in the morning and not be able to get back to sleep
+    - I not feel refreshed when you get up
+    - I find it hard to nap during the day, despite feeling tired
+    - I feel tired and irritable during the day and have difficulty concentrating
+    - Restless nights
+    - Cant sleep at nights
+    - Feels night are very long
+    - i think i have insomnia
+    - how to cure my insomnia
+    - i am suffering from insomnia
+    - feeling very painful due to insomnia
+    - i have been recently suffering with insomnia
+
+- intent: problem_psychosis
+  examples: |
+    - I am having hallucinations
+    - Getting delusions lately
+    - I get episdoes of depression and mania
+    - I got severe depression
+    - I feel sad a lot
+    - i am always angry
+    - i feel anger
+    - I feel anger resentment
+    - I feel triggered stress a lot
+    - I stay sad and all depressed for long
+    - I had parkinsons disease
+    - I had a brain tumour
+    - Brain hurts
+    - i think i have psychosis   
+    - how to cure if i am suffering with psychosis
+    - i got problem of psychosis
+    - i am suffering from psychosis
+    - i have been recently suffering with psychosis
+
+- intent: problem_depression
+  examples: |
+    - I have low mood all the time
+    - I am worried too much about myself
+    - I am depressed
+    - i have depression
+    - i am sad and depressed
+    - I am usually struggling with stress
+    - I always quit due to mental tention
+    - I got many traumatical situation
+    - I feel anxiety very much
+    - Have too much sadness
+    - Have very sad thoughts
+    - Have Negative thoughts a lot
+    - i have suicidal thoughts
+    - suicidal tendency
+    - i think i have depression
+    - i am suffering from depression
+    - a lot of depression   
+    - problematic depression every now and then   
+    - i have been recently suffering with depression
+
+- intent: problem_pneumonia
+  examples: |
+    - I am having greenish cough
+    - Having yellow cough with bloody mucus
+    - Having fever and shaking chills
+    - I have rapid and shallow breathing
+    - I have fever eith green cough
+    - i have cough and its green colour
+    - Having stabbing chest aches while deep breathing
+    - Difficulty in deep breathing
+    - Having low energy and fatigue
+    - i think i have pneumonia
+    - how to cure my pneumonia
+    - suffering from pneumonia
+    - i am suffering from pneumonia
+    - i have been recently suffering with pneumonia
+
+
+
+- intent: problem_bronchial-asthma
+  examples: |
+    - wheezing
+    - i have shortness of breath
+    - i am having chest pains
+    - my chest is paining
+    - i am not able to breathe properly
+    - i wheeze while breathing
+    - i had a wheezing attack also i am having cough and cold
+    - i am not able to sleep due to wheezing
+    - i am having problem in breathing
+    - i am not able to sleep due to shortness of breathe
+    - i am wheezing more due to cough and cold
+    - i am wheezing more due to flu
+    - i think i have bronchial asthma
+    - problematic bronchial asthma suffering
+    - i am suffering from bronchial asthma
+    - i have been recently suffering with bronchial asthma
+
+
+- intent: problem_coronavirus
+  examples: |
+    - change in sense of smell or taste
+    - difficulty in breathing
+    - i have corona virus
+    - i may have covid
+    - i was in the quarantinve center
+    - my frineds have  covid    -19
+    - i am having very high fever
+    - i am coughing continuously
+    - i am having difficulty in breathing
+    - i am not feeling any taste
+    - i am not able to smell properly
+    - i have lost sense of taste and smell
+    - i am having dry cough
+    - i have lost smell sensation
+    - i am not able to breathe properly
+    - i don't get the taste of anything
+    - i think i have corona virus
+    - i am suffering from corona virus
+    - i have been recently suffering with corona virus
+    - having symptoms of corona virus
+    - corona virus feeling dizzy hungry and tasteless
+
+
+
+- intent: problem_low-blood-pressure
+  examples: |
+    - dizziness or lightheadedness
+    - i have low bp
+    - my blood pressure is low
+    - i have low blood pressure
+    - dehydration and unusual thirst
+    - lack of concentration
+    - blurred vision
+    - cold, clammy, pale skin
+    - rapid, shallow breathing
+    - fatigue
+    - depression
+    - i feel tired
+    - i have dehydration
+    - i am stressed out
+    - i think i have low blood pressure
+    - low blood pressure pain    
+    - troublesome low blood pressure   
+    - i am suffering from low blood pressure
+    - i have been recently suffering with low blood pressure
+
+- intent: problem_high-blood-pressure
+  examples: |
+    - high blood pressure
+    - high bp
+    - i feel high blood pressure
+    - i am having severe headache
+    - i am having chest pain
+    - pounding in chest, neck or ears
+    - i have blood in my urine
+    - i feel tired and exhausted
+    - i am sweating
+    - i am feeling hot
+    - i am feeling nervous
+    - i am feeling dizzy
+    - i think i have high blood pressure
+    - i am suffering from high blood pressure
+    - i have been recently suffering with high blood pressure
+    - i have high blood pressure  
+
+- intent: problem_ringworm
+  examples: |
+    - itchy skin
+    - ring    -shaped rash
+    - red, scaly, cracked skin
+    - hair loss
+    - i have ring worm
+    - i have red, swollen, itchy skin between the toes
+    - i have scaly, itchy, red, circular bald spot
+    - i have scaly, itchy, red spots, in skin folds of the thigh.
+    - i have scaly, itchy, red spots on the cheeks, chin, and upper neck
+    - i think i have ringworm
+    - i got severe ringworm problem   
+    - i am suffering from ringworm
+    - i have been recently suffering with ringworm
+
+
+
+- intent: problem_toothache
+  examples: |
+    - my tooth is paining
+    - i have tooth ache
+    - i have broken tooth
+    - i have swelling around tooth
+    - my mouth is smelling
+    - i have foul tasting drainage from infected tooth
+    - i have tooth pain while eating
+    - my gums are infected
+    - i have abcessed tooth
+    - my filling inside tooth is damaged
+    - i think i have toothache
+    - i am suffering from toothache
+    - i feel severe toothache
+    - i have been recently suffering with toothache
+    - i am going through toothache problem   
+    - i been suffering from toothache lately  
+    - tooth aching a lot   
+
+- intent: problem_migraine
+  examples: |
+    - i have migraine
+    - i am sensitive to light, sound, or smell
+    - i am very thirsty
+    - i have mood swings
+    - i feel bloated
+    - i am having hallucinations
+    - i have tunnel vision
+    - i am having a very strong headache
+    - my ears are ringing
+    - i am not able to see at all
+    - i am feeling tired
+    - i am nauseated
+    - i ahve frequent migrain attacks
+    - i have strong pain in back part of head
+    - i have wave sensations in my head
+    - i got migraine
+    - i have been suffering from migraine
+    - i have been lately suffering with migraine
+    - troublesome migraine  
+
+
+- intent: problem_arthritis
+  examples: |
+    - joint pain, tenderness and stiffness
+    - inflammation in and around the joints
+    - restricted movement of the joints
+    - warm, red skin over the affected joint
+    - weakness and muscle wasting
+    - I have arthritis
+    - My hands are paining and they are becoming stiff
+    - My knees are paining and they are becoming stiff
+    - My spine are paining and they are becoming stiff
+    - My heaps are paining and they are becoming stiff
+    - I am having inflammation in and around my hands
+    - I am having inflammation in and around my knees
+    - I am having inflammation in and around my heaps
+    - I am having inflammation in and around my spine
+    - I am feeling warm and have red and swollen skin over my hand
+    - I am feeling warm and have red and swollen skin over my heaps
+    - I am feeling warm and have red and swollen skin over my spine
+    - I am feeling warm and have red  and swollenskin over my knees
+    - I am having weakness and muscle wasting
+    - i think i have arthritis
+    - going through arthritis
+    - troublesome pain of arthritis
+    - i am suffering from arthritis
+    - i have been recently suffering with arthritis
+
+- intent: problem_period-cramps
+  examples: |
+    - lower belly pain during period
+    - lower belly pain after period
+    - lower belly pain before period
+    - belly pain in period
+    - period cramps
+    - cramps during period
+    - cramps after period
+    - cramps before period
+    - menstrual cramps during period
+    - menstrual cramps after period
+    - menstrual cramps before period
+    - abdomen cramps
+    - lower abdomen pain during period
+    - lower abdomen pain after period
+    - lower abdomen pain before period
+    - abdomen pain in period
+
+- intent: problem_vit-d-deficiency
+  examples: |
+    - suffering from vitamin D deficeincy
+    - vitamin d deficiency
+    - low vitamin d
+    - low level of vit d
+    - vit d low
+    - I’m suffering from vitamin D deficiency
+    - im suffering from vit d deficiency
+    - suffering from ricket
+    - ricket
+    - I’m suffering from ricket
+    - im suffering from ricket
+    - my bones are weak
+    - bones are weak due to vitamin d deficiency
+    - bones are weak due to vit d deficiency
+    - bones are weak due to ricket
+
+- intent: problem_anaemia
+  examples: |
+    - haeamoglobin level is low
+    - low level of haeamoglobin
+    - low haeamoglobin
+    - low hb
+    - suffering from anaemia
+    - having anaemia
+    - anaemia
+    - my hemoglobin level is too low
+    - I’m suffering from anaemia
+    - im suffering from anaemia
+    - lower haemoglobin level
+    - low haemoglobin count
+
+- intent: problem_weakness
+  examples: |
+    - im feeling weak
+    - weakness
+    - dizziness
+    - feeling lazy
+    - lazy
+    - Im having dizziness weakness
+    - im having weakness
+    - i'm feeling dizziness
+    - i am feeling dizzy
+    - i am feeling exhausted
+    - i am feeling weekness
+
+- intent: problem_eye-problem
+  examples: |
+    - eye watering
+    - my eyes are waretring
+    - my eyes are watering
+    - right eye watering
+    - left eye watering
+    - both the eyes watering
+    - eyes are getting dry
+    - eye drying
+    - my eyes are getting dry
+    - my eyes are drying
+    - right eye drying
+    - left eye drying
+    - both the eyes drying
+    - i am suffering from eye problem due to long screen time
+
+- intent: problem_ear-pain
+  examples: |
+    - my ears are paining
+    - right ear is paining
+    - left ear is paining
+    - ears paining a lot
+    - ear pain due to long time earphone use
+    - ears are paining for earphone use
+    - i am suffering from tinnitus
+    - my ears are continuously ringing
+    - right ear is ringing
+    - left ear is ringing
+    - ear ringing due to long use of earphone
+    - ear pain due to long time headphone use
+    - ears are paining for headphone use
+    - ear ringing due to long use of headphone
+    - ear pain due to long time earbud use
+    - ears are paining for earbud use
+    - ear ringing due to long use of earbud
+
+- intent: problem_night-blindness
+  examples: |
+    - i am suffering from night blindness
+    - night blindness
+    - i am having night blindness
+    - i do not see clearly during night
+    - i have eyesight problem in the night
+    - eyesight problem at night
+    - low eyesight at night
+    - low eye power at night
+    - blindness at night
+    - blind in night time
+    - night time blindness
+    - i do not see clearly in the dark
+    - i have eyesight problem in the dark
+    - eyesight problem in the dark
+    - low eyesight in the dark
+    - low eye power in the dark
+    - blindness in the dark
+    - blind in the dark
+    - blindness in dark light
+    - difficulty seeing in the dark
+    - difficulty seeing in the night
+    - difficulty seeing at night
+
+
+- intent: problem_mild-heart-disease
+  examples: |
+    - i have heart problems
+    - i have experienced heart atack before
+    - pressure in the chest
+    - tightness in the chest
+    - pain in chest
+    - heart attack
+    - i think i have pain in my left arm
+    - i am feeling heart attack
+    - squeezing in the chest
+    - aching sensation in my chest
+    - pressure in the left arms
+    - tightness in the left arms
+    - squeezing in the arms
+    - aching sensation in my arms
+    - chest pressure
+    - chest tightness
+    - chest pain
+    - chest squeezing
+    - arms pressure
+    - arms tightness
+    - arms aching
+    - arms aching sensation
