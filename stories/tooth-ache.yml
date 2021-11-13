@@ -1,0 +1,61 @@
+version: "2.0"
+
+stories:
+
+- story: tooth ache
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_tooth-ache
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_tooth-ache-a
+  - action: utter_tooth-ache-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tooth ache
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_tooth-ache
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tooth ache
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_tooth-ache
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tooth ache
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_tooth-ache
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_tooth-ache-b
+  - action: utter_tooth-ache-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
