@@ -11,10 +11,12 @@ The dataset is in the format specified by the requirements of RASA framework as 
     * Execute <code> conda create --prefix ./env_name python=3.6</code> to create an env in the same directory
 * If conda is not installed 
     * Install it from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) 
+
     * Or use any other env manager, [guide](https://rasa.com/docs/rasa/installation/)
 * Activate the env using <code> conda activate ./env_name </code> 
 * Install the dependencies
     *  <code> pip install rasa  </code> 
+
 >" Note: The env creation is optional and can also be performed directly in the base env but it is recommended to create a new env as the dependencies are large and might effect the storage/performance if directly installed"
 
 ## Usage
