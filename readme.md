@@ -1,0 +1,45 @@
+
+# RASA Healthcare Assistant Model 
+## Introduction
+>" Dataset for training an NLU model to provide healthcare assistance. "
+The dataset is in the format specified by the requirements of RASA framework as the model is tested and deployed using the same.
+
+## RASA Setup
+* Download and extract the zip [file](https://github.com/Medic-Bot-India/rasaModel/archive/refs/heads/main.zip) 
+* Create an env for installing rasa
+    * We use conda to create the virtual environment, open your preffered command line/terminal/shell in the extracted directory and all the commands are to be performed here
+    * Execute <code> conda create --prefix ./env_name python=3.6</code> to create an env in the same directory
+* If conda is not installed 
+    * Install it from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) 
+    * Or use python venv, [guide](https://docs.python.org/3/library/venv.html)
+* Activate the env using <code> conda activate ./env_name </code> 
+* Install the dependencies
+    *  <code> pip install rasa  </code> 
+    * .
+>" Note: The env creation is optional and can also be performed directly in the base env but it is recommended to create a new env as the dependencies are large and might effect the storage/performance if directly installed"
+
+## Usage
+* Open the directory and activate the env from comman line.
+* Train the model using <code> rasa train </code> this creates a model in the models directory.
+* Run the model : <code> rasa shell </code>.
+* The trained AI chatbot model will be now active
+
+You can checkout the complete deployed platform [here](https://github.com/Medic-Bot-India/consolidated)
+
+## Testing
+
+
+
+
+<!--![image](/imgs/imagechat.png)
+### Purpose
+> "The ultimate aim of the medicbot chatbot is to significantly simulate exactly the way a human doctor would monitor a person’s health status and advise any medications or practices."
+-->
+
+
+
+<!--- * Holds no record of the medical history for privacy purposes. -->
+
+### Contact
+[justprateek](https://github.com/justprateek) <br>
+[k-v-n-p](https://github.com/k-v-n-p)
