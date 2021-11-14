@@ -9,7 +9,7 @@ The dataset is in the format specified by the requirements of RASA framework as 
 ## RASA Setup
 * Download and extract the zip [file](https://github.com/Medic-Bot-India/rasaModel/archive/refs/heads/main.zip) 
 * Create an env for installing rasa
-    * We use conda to create the virtual environment, open your preffered command line/terminal/shell in the extracted directory and all the commands are to be performed here
+    * We use conda to create the virtual environment, open your preferred command line/terminal/shell in the extracted directory and all the commands are to be performed here
     * Execute <code> conda create --prefix ./env_name python=3.6</code> to create an env in the same directory
 * If conda is not installed 
     * Install it from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) 
