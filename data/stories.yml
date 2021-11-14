@@ -2,6 +2,7 @@ version: "2.0"
 
 stories:
 
+<<<<<<< HEAD
 - story: allergy 1
   steps:
   - intent: greet
@@ -1693,6 +1694,4 @@ stories:
   - intent: age-below-18
   - action: utter_weakness-b
   - action: utter_weakness-advice
-  - action: utter_anything-else
-  - intent: deny
-  - action: utter_goodbye
+
