@@ -1,0 +1,61 @@
+version: "2.0"
+
+stories:
+
+- story: conjunctivits
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_conjunctivits
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_conjunctivits-a
+  - action: utter_conjunctivits-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: conjunctivits
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_conjunctivits
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: conjunctivits
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_conjunctivits
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: conjunctivits
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_conjunctivits
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_conjunctivits-b
+  - action: utter_conjunctivits-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye

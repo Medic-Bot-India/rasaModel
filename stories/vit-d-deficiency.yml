@@ -1,0 +1,61 @@
+version: "2.0"
+
+stories:
+
+- story: vit d deficiency
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_vit-d-deficiency
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_vit-d-deficiency-a
+  - action: utter_vit-d-deficiency-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: vit d deficiency
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_vit-d-deficiency
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: vit d deficiency
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_vit-d-deficiency
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: vit d deficiency
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_vit-d-deficiency
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_vit-d-deficiency-b
+  - action: utter_vit-d-deficiency-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye

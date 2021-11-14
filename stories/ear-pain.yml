@@ -1,0 +1,61 @@
+version: "2.0"
+
+stories:
+
+- story: ear pain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_ear-pain
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_ear-pain-a
+  - action: utter_ear-pain-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ear pain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_ear-pain
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ear pain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_ear-pain
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ear pain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_ear-pain
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_ear-pain-b
+  - action: utter_ear-pain-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye

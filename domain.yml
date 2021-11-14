@@ -18,7 +18,7 @@ intents:
   - problem_diabetes
   - problem_allergy-rhinitis
   - problem_fungal-infection
-  - problem_chicken-pox
+  - problem_chickenpox
   - problem_typhoid
   - problem_psoriasis
   - problem_obesity
@@ -81,8 +81,17 @@ responses:
     - title: "above 18"
       payload: /age-above-18
 
-  utter_common-cold:
+  utter_visit-doctor:
+  - text: "Please visit a hospital"
+
+  utter_common-cold-a:
+  - text: "You have a cold. You should take a 5mg dosage of Cetrizine after your dinner, if the problem persists, do visit a doctor."
+
+  utter_common-cold-b:
   - text: "You have a cold. You should take a 10mg dosage of Cetrizine after your dinner, if the problem persists, do visit a doctor."
+
+  utter_common-cold-advice:
+  - text: "common-cold advice here."
 
   utter_anything-else:
   - text: "Is there anything else I can help you with?"
@@ -101,17 +110,17 @@ responses:
   - text: You have high BP. You should take 10mg dosage of Lisinopril (Prinivil, Zestril) is an ACE inhibitor. Take it after having lunch.  You should take once a day. Do visit a doctor.
   utter_high-blood-pressure-advice:
   - text: Exercise regularly, loose extra weight, eat a healthy diet, reduce sodium in your diet, quit smoking, limit or avoid alcohol consumption.
-  utter_ring-worm-a:
+  utter_ringworm-a:
   - text: You have ringworm. You should apply lotrimin ointment on the infected area , do visit a doctor.
-  utter_ring-worm-b:
+  utter_ringworm-b:
   - text: You have ringworm. You should apply lotrimin ointment on the infected area , do visit a doctor.
-  utter_ring-worm-advice:
+  utter_ringworm-advice:
   - text: Wash the infected area regularly. Don’t use wet clothes.
-  utter_tooth-ache-a:
+  utter_toothache-a:
   - text: You have toothache. You should take one tablet of Diclofenac when you get pain , do visit a doctor.
-  utter_tooth-ache-b:
+  utter_toothache-b:
   - text: You have toothache. You should take one tablet of Diclofenac when you get pain, do visit a doctor.
-  utter_tooth-ache-advice:
+  utter_toothache-advice:
   - text: rinse your mouth with warm water. Use dental floss to remove any food particles or plaque wedged between your teeth.
   utter_migraine-a:
   - text: You have migraine. You should take 25mg dosage of sumatriptan when you get pain , do visit a doctor.

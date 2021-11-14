@@ -1,0 +1,61 @@
+version: "2.0"
+
+stories:
+
+- story: high blood pressure
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_high-blood-pressure
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_high-blood-pressure-a
+  - action: utter_high-blood-pressure-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: high blood pressure
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_high-blood-pressure
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: high blood pressure
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_high-blood-pressure
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: high blood pressure
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_high-blood-pressure
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_high-blood-pressure-b
+  - action: utter_high-blood-pressure-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye

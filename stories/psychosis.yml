@@ -1,0 +1,61 @@
+version: "2.0"
+
+stories:
+
+- story: psychosis
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_psychosis
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_psychosis-a
+  - action: utter_psychosis-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: psychosis
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_psychosis
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: psychosis
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_psychosis
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: psychosis
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_psychosis
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_psychosis-b
+  - action: utter_psychosis-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
