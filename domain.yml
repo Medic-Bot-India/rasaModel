@@ -12,6 +12,9 @@ intents:
   - long-duration
   - age-below-18
   - age-above-18
+  - problem_headache
+  - problem_cough
+  - problem_nasal-blockage
   - problem_common-cold
   - problem_conjunctivits
   - problem_gerd
@@ -84,11 +87,32 @@ responses:
   utter_visit-doctor:
   - text: "Please visit a hospital"
 
+utter_headache-a:
+  - text: take a 100mg dosage of Crocin Pain Relief for headache
+  utter_headache-b:
+  - text: take a 500mg dosage of Crocin Pain Relief for headache
+  utter_headache-advice:
+  - text: try to relax, drink plenty of water, get rest, try cold pack
+
+  utter_nasal-blockage-a:
+  - text: You have nasal-blockage. You should use nasivion nasal spray when your nose is blocked.
+  utter_nasal-blockage-b:
+  - text: You have nasal-blockage. You should use nasivion nasal spray when your nose is blocked.
+  utter_nasal-blockage-advice:
+  - text: use steam vapourizer and avoid cold baths
+
+utter_cough-a:
+  - text: You have cough. You should take 5mL dosage of Benadryl Syrup when you get cough
+  utter_cough-b:
+  - text: You have cough. You should take 10mL dosage of Benadryl Syrup when you get cough
+  utter_cough-advice:
+  - text: drink ginger tea or honey tea to avoid cough
+
   utter_common-cold-a:
-  - text: "You have a cold. You should take a 5mg dosage of Cetrizine after your dinner, if the problem persists, do visit a doctor."
+  - text: "You have a cold. You should take a 5mg dosage of Cetrizine after your dinner, if the problem persists."
 
   utter_common-cold-b:
-  - text: "You have a cold. You should take a 10mg dosage of Cetrizine after your dinner, if the problem persists, do visit a doctor."
+  - text: "You have a cold. You should take a 10mg dosage of Cetrizine after your dinner, if the problem persists."
 
   utter_common-cold-advice:
   - text: "common-cold advice here."
@@ -97,47 +121,47 @@ responses:
   - text: "Is there anything else I can help you with?"
 
   utter_low-blood-pressure-a:
-  - text: You have low BP. You should take 7mg dosage of  midodrine (Orvaten) for every 8 hours, it helps to narrow blood vessels to raise blood pressure, do visit a doctor. 
+  - text: You have low BP. You should take 7mg dosage of  midodrine (Orvaten) for every 8 hours, it helps to narrow blood vessels to raise blood pressure. 
  
   utter_low-blood-pressure-b:
-  - text: You have low BP. You should take 10mg dosage of midodrine (Orvaten) for every 8 hours, it helps to narrow blood vessels to raise blood pressure, do visit a doctor.
+  - text: You have low BP. You should take 10mg dosage of midodrine (Orvaten) for every 8 hours, it helps to narrow blood vessels to raise blood pressure.
   
   utter_low-blood-pressure-advice:
   - text: Drink plenty of water, eat a balanced diet, eat smaller meals, avoid alcohol, check your blood sugar several times a day consult doctor incase of emergency.
   utter_high-blood-pressure-a:
-  - text: You have high BP. You should take 5mg dosage of Lisinopril (Prinivil, Zestril) is an ACE inhibitor. Take it after having lunch.  You should take once a day. Do visit a doctor.
+  - text: You have high BP. You should take 5mg dosage of Lisinopril (Prinivil, Zestril). Take it after having lunch.
   utter_high-blood-pressure-b:
-  - text: You have high BP. You should take 10mg dosage of Lisinopril (Prinivil, Zestril) is an ACE inhibitor. Take it after having lunch.  You should take once a day. Do visit a doctor.
+  - text: You have high BP. You should take 10mg dosage of Lisinopril (Prinivil, Zestril). Take it after having lunch.
   utter_high-blood-pressure-advice:
   - text: Exercise regularly, loose extra weight, eat a healthy diet, reduce sodium in your diet, quit smoking, limit or avoid alcohol consumption.
   utter_ringworm-a:
-  - text: You have ringworm. You should apply lotrimin ointment on the infected area , do visit a doctor.
+  - text: You have ringworm. You should apply lotrimin ointment on the infected area.
   utter_ringworm-b:
-  - text: You have ringworm. You should apply lotrimin ointment on the infected area , do visit a doctor.
+  - text: You have ringworm. You should apply lotrimin ointment on the infected area.
   utter_ringworm-advice:
   - text: Wash the infected area regularly. Don’t use wet clothes.
   utter_toothache-a:
-  - text: You have toothache. You should take one tablet of Diclofenac when you get pain , do visit a doctor.
+  - text: You have toothache. You should take one tablet of Diclofenac when you get pain , do visit a dentist.
   utter_toothache-b:
-  - text: You have toothache. You should take one tablet of Diclofenac when you get pain, do visit a doctor.
+  - text: You have toothache. You should take one tablet of Diclofenac when you get pain, do visit a dentist.
   utter_toothache-advice:
   - text: rinse your mouth with warm water. Use dental floss to remove any food particles or plaque wedged between your teeth.
   utter_migraine-a:
-  - text: You have migraine. You should take 25mg dosage of sumatriptan when you get pain , do visit a doctor.
+  - text: You have migraine. You should take 25mg dosage of sumatriptan when you get pain.
   utter_migraine-b:
-  - text: You have migrane. You should take 50mg dosage of sumatriptan when you get pain, do visit a doctor.
+  - text: You have migrane. You should take 50mg dosage of sumatriptan when you get pain.
   utter_migraine-advice:
   - text: try a cold pack, get some caffeine, practice relaxation.
   utter_conjunctivits-a:
-  - text : You have conjunctivitis. Take gatifloxacin (Zymaxid) 2 drops twice a day, do visit a doctor.
+  - text : You have conjunctivitis. Take gatifloxacin (Zymaxid) 2 drops twice a day .
   utter_conjunctivits-b:
-  - text : You have conjunctivitis. Take ciprofloxacin 2 drops thrice a day, do visit a doctor. 
+  - text : You have conjunctivitis. Take ciprofloxacin 2 drops thrice a day . 
   utter_conjunctivits-advice:
   - text : Avoiding contact with infected people, disinfection of household surfaces, and good hygienic practices.
   utter_gerd-a:
-  - text : You have gerd. Take antacids to reduce pepsids. Take PPIs eg esomeprazole (Nexium) omeprazole (Prilosec) lansoprazole (Prevacid) for long terms 2 dozes daily, do visit a doctor. 
+  - text : You have gerd. Take antacids to reduce pepsids. Take PPIs eg esomeprazole (Nexium) omeprazole (Prilosec) lansoprazole (Prevacid) for long terms 2 dozes daily . 
   utter_gerd-b:
-  - text : You have gerd. Take famotidine (Pepcid) and nizatidine 10mg tablets twice a day, do visit a doctor. 
+  - text : You have gerd. Take famotidine (Pepcid) and nizatidine 10mg tablets twice a day . 
   utter_gerd-advice:
   - text : If not taken care by medications, consult for surgery like LINX or TIF.
   utter_diabetes-a:
@@ -147,27 +171,27 @@ responses:
   utter_diabetes-advice: 
   - text : Choose healthier carbohydrates, Eat less salt, Eat more fruits, Cut down sugar.
   utter_fungal-infection-a:
-  - text : You have fungal infection. Take 5-10mg of 1% cream Terbinafine 1 or 2 times a day, or nystalin ointment once a day, do visit a doctor. 
+  - text : You have fungal infection. Take 5-10mg of 1% cream Terbinafine 1 or 2 times a day, or nystalin ointment once a day. 
   utter_fungal-infection-b: 
-  - text : You have fungal infection. Have 1-2 dozes of any of clotrimazole, econazole, ketoconazole, do visit a doctor.
+  - text : You have fungal infection. Have 1-2 dozes of any of clotrimazole, econazole, ketoconazole.
   utter_fungal-infection-advice: 
   - text : Keep the affected area clean and dry. wearing loose-fitting clothing or shoes that allow your skin to breathe
   utter_chickenpox-a: 
-  - text : You have chickenpox. Take 10mg tablets daily acyclovir eg Sitavig 1doze daily, do visit a doctor. 
+  - text : You have chickenpox. Take 10mg tablets daily acyclovir eg Sitavig 1doze daily. 
   utter_chickenpox-b: 
-  - text : You have chickenpox. Take 5mg tablets of Zovirax, apply calamine lotion 2mg daily, do visit a doctor. 
+  - text : You have chickenpox. Take 5mg tablets of Zovirax, apply calamine lotion 2mg daily. 
   utter_chickenpox-advice: 
   - text : Wear mittens to prevent scratching, Take baking soda baths, Use chamomile compresses, Have approved pain relievers
   utter_typhoid-a: 
-  - text : You have typhoid. azithromycin given for 7 days at a dosage of 10 mg/kg/day, maximum 500mg a day, do visit a doctor. 
+  - text : You have typhoid. azithromycin given for 7 days at a dosage of 10 mg/kg/day, maximum 500mg a day. 
   utter_typhoid-b: 
-  - text : You have typhoid. Take 2-3mg tablets Ciprofloxacin (Cipro), Azithromycin (Zithromax) or Ceftriaxone on daily basis a little amount, do visit a doctor. 
+  - text : You have typhoid. Take 2-3mg tablets Ciprofloxacin (Cipro), Azithromycin (Zithromax) or Ceftriaxone on daily basis a little amount. 
   utter_typhoid-advice: 
   - text : Take antibiotic, drinking adequate water. Consult a doctor
   utter_psoriasis-a: 
-  - text : You have psoriasis. Take 2-3mg dozes Anthralin, , Coal tar daily, do visit a doctor. 
+  - text : You have psoriasis. Take 2-3mg dozes Anthralin, , Coal tar daily. 
   utter_psoriasis-b: 
-  - text : You have psoriasis. Have Calcipotriene (a form of vitamin D) 10mg daily, do visit a doctor. 
+  - text : You have psoriasis. Have Calcipotriene (a form of vitamin D) 10mg daily. 
   utter_psoriasis-advice: 
   - text : You can apply cream, lotion, or ointments. use cream with clobetasol
   utter_obesity-a: 
@@ -177,27 +201,27 @@ responses:
   utter_obesity-advice: 
   - text : Do exercise and yoga. Have medications and consult for weight loss surgery. 
   utter_insomnia-a: 
-  - text : You have insomnia. Take Antihistamines like diphenhydramine (Nytol, Sominex) of 2-3mg, 2doze daily, do visit a doctor. 
+  - text : You have insomnia. Take Antihistamines like diphenhydramine (Nytol, Sominex) of 2-3mg, 2doze daily. 
   utter_insomnia-b: 
-  - text : You have insomnia. Have 3.75mg dozes daily of sleeping pills, do visit a doctor. 
+  - text : You have insomnia. Have 3.75mg dozes daily of sleeping pills. 
   utter_insomnia-advice: 
   - text : Wake up at the same time, Limit naps, Eliminate alcohol. 
   utter_psychosis-a: 
-  - text : You have psychosis. Take atypical mild 1-2 dozes antipsychotics, which include aripiprazole (Abilify), asenapine (Saphris), clozapine (Clozaril) 4mg daily, do visit a doctor. 
+  - text : You have psychosis. Take atypical mild 1-2 dozes antipsychotics, which include aripiprazole (Abilify), asenapine (Saphris), clozapine (Clozaril) 4mg daily. 
   utter_psychosis-b: 
-  - text : You have psychosis. Have 2-3mg dozes Antipsychotic drugs like olanzapine and risperidone 10mg dozes daily, do visit a doctor. 
+  - text : You have psychosis. Have 2-3mg dozes Antipsychotic drugs like olanzapine and risperidone 10mg dozes daily. 
   utter_psychosis-advice: 
   - text : Don't panic or overreact, Do listen non-judgmentally.
   utter_depression-a: 
-  - text : You have depression. Take 15-20mg of fluoxetine (Prozac™) is most effective, with 5mg dozes daily basis, do visit a doctor. 
+  - text : You have depression. Take 15-20mg of fluoxetine (Prozac™) is most effective, with 5mg dozes daily basis. 
   utter_depression-b: 
-  - text : You have depression. Take 1tablet of sertraline (Zoloft), fluoxetine (Prozac, Sarafem), citalopram (Celexa) 10-15mg dozes daily, do visit a doctor. 
+  - text : You have depression. Take 1tablet of sertraline (Zoloft), fluoxetine (Prozac, Sarafem), citalopram (Celexa) 10-15mg dozes daily. 
   utter_depression-advice: 
   - text : Blend of cognitive behavioral therapy, interpersonal therapy, and psychodynamic therapy can be used. 
   utter_pneumonia-a: 
-  - text : You have pneumonia. Take Beta-lactam antibiotics (eg, amoxicillin, cefuroxime, cefdinir) 10-15mg daily, do visit a doctor. 
+  - text : You have pneumonia. Take Beta-lactam antibiotics (eg, amoxicillin, cefuroxime, cefdinir) 10-15mg daily. 
   utter_pneumonia-b: 
-  - text : You have pneumonia. Take 10-12mg dozes daily Macrolides include azithromycin (Zithromax®) and clarithromycin (Biaxin®), do visit a doctor.
+  - text : You have pneumonia. Take 10-12mg dozes daily Macrolides include azithromycin (Zithromax®) and clarithromycin (Biaxin®).
   utter_pneumonia-advice: 
   - text : You can try  amoxicillin, azithromycin, or fluoroquinolones too.
   utter_coronavirus-advice:

@@ -50,39 +50,39 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+# - intent: mood_great
+#   examples: |
+#     - perfect
+#     - great
+#     - amazing
+#     - feeling like a king
+#     - wonderful
+#     - I am feeling very good
+#     - I am great
+#     - I am amazing
+#     - I am going to save the world
+#     - super stoked
+#     - extremely good
+#     - so so perfect
+#     - so good
+#     - so perfect
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+# - intent: mood_unhappy
+#   examples: |
+#     - my day was horrible
+#     - I am sad
+#     - I don't feel very well
+#     - I am disappointed
+#     - super sad
+#     - I'm so sad
+#     - sad
+#     - very sad
+#     - unhappy
+#     - not good
+#     - not very good
+#     - extremly sad
+#     - so saad
+#     - so sad
 
 - intent: bot_challenge
   examples: |
@@ -157,6 +157,81 @@ nlu:
     - i am above 60
     - /age-above-18
 
+- intent: problem_headache
+  examples: |
+    - hdache
+    - hadac
+    - headac
+    - hdachr
+    - headacha
+    - hadache
+    - hdce
+    - headace
+    - i have headach
+    - headache
+    - headach
+    - a headache
+    - i have head pain
+    - i have headache
+    - also  headache
+    - a head ache
+    - my head is paining
+    - my head is aching
+    - my head is paining a lot
+    - head pain
+    - pain in my head
+    - i have pain in my head
+    - A painful sensation in any part of the head ranging from sharp to dull
+    - as if they have a tight band around the head
+    - a constant, dull ache on both sides
+    - pain spread to or from the neck
+    - restlessness
+    - a headach
+    - i have ead pain
+    - i hae headache
+    - m headspaining
+    - head pai
+    - i have pin in my head
+    - A painful sensation in anypart of the head ranging from sharp to dull
+    - as if thesa hav a tght band around the head
+    - a onstant, dull ache n both sies
+
+- intent: problem_cough
+  examples: |
+    - cough
+    - i have cough
+    - cough and chest pain
+    - frequent throat clearing and sore throat
+    - sore throat due to coughing
+    - throat clearing
+    - Hoarseness
+    - i have dry cough and my throat pains
+    - wheezing and shortness of breath
+    - wheezing cough
+    - i have wet cough constantly at night
+    - coughing frequently
+    - cough many times
+
+- intent: problem_nasal-blockage
+  examples: |
+    - nasal blockage
+    - i have nasal blockage
+    - my nose is blocked
+    - i cant breathe in night
+    - i have problem in breathing while sleeping
+    - stuffy nose
+    - nassal passages swollen with excess fluid
+    - nasal passage blocked with mucus
+    - nostrill blocked by mucus
+    - nostrill blocked
+    - nose causing difficulty breathing
+    - reduced sense of smell and tase
+    - lost sense of smell
+    - runny nose
+    - i have stuffy nose
+    - mucus buildup
+    - swollen nasal tissue
+
 - intent: problem_common-cold
   examples: |
     - i have running nose
@@ -164,8 +239,9 @@ nlu:
     - i am feeling very cold
     - i have cold and cough
     - i feel cold
+    - i have fever and i am feeling cold
+    - i have fever
     - cold
-    - cough
     - i have running nose
     - my nose is blocked and itchy
     - my nose is red and i am sneezing a lot
@@ -314,6 +390,7 @@ nlu:
     - I always feel vomiting
     - I have high body temperature and vomiting
     - high fever
+    - i have fever
     - I am having constipation and vomiting
     - constipation
     - I am having abdominal pain

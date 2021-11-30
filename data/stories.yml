@@ -2,6 +2,179 @@ version: "2.0"
 
 stories:
 
+- story: headache 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_headache
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_headache-a
+  - action: utter_headache-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: headache 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_headache
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: headache 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_headache
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: headache 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_headache
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_headache-b
+  - action: utter_headache-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cough 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_cough
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_cough-a
+  - action: utter_cough-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cough 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_cough
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cough 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_cough
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: cough 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_cough
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_cough-b
+  - action: utter_cough-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: nasal-blockage 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_nasal-blockage
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_nasal-blockage-a
+  - action: utter_nasal-blockage-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: nasal-blockage 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_nasal-blockage
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-above-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: nasal-blockage 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_nasal-blockage
+  - action: utter_ask-duration
+  - intent: long-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_visit-doctor
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: nasal-blockage 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_nasal-blockage
+  - action: utter_ask-duration
+  - intent: small-duration
+  - action: utter_ask-age
+  - intent: age-below-18
+  - action: utter_nasal-blockage-b
+  - action: utter_nasal-blockage-advice
+  - action: utter_anything-else
+  - intent: deny
+  - action: utter_goodbye
 
 - story: allergy 1
   steps:
