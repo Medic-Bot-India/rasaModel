@@ -856,3 +856,15 @@ nlu:
     - arms tightness
     - arms aching
     - arms aching sensation
+
+
+- intent: problem_drug-info
+  examples: |
+    - give me details about [paracetamol](drug_name)
+    - i want information about [paracetamol](drug_name)
+    - tell me about [crocin](drug_name)
+    - i want to know about [paracetamol](drug_name)
+    - why is [crocin](drug_name) used
+    - whats the dosage of [paracetamol](drug_name)
+    - tell me details about [calpol](drug_name)
+

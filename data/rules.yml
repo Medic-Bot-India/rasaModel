@@ -7,7 +7,7 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: reply with drug information
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: problem_drug-info
+  - action: utter_drug-info

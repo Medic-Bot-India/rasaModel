@@ -45,6 +45,15 @@ intents:
   - problem_ear-pain
   - problem_night-blindness
   - problem_mild-heart-disease
+  - problem_drug-info
+
+
+entities: 
+  - drug_name
+
+slots:
+  drug_name:
+    type: text
 
 responses:
   utter_greet:
@@ -87,13 +96,13 @@ responses:
   utter_visit-doctor:
   - text: "Please visit a hospital"
 
-utter_headache-a:
+  utter_headache-a:
   - text: take a 100mg dosage of Crocin Pain Relief for headache
   utter_headache-b:
   - text: take a 500mg dosage of Crocin Pain Relief for headache
   utter_headache-advice:
   - text: try to relax, drink plenty of water, get rest, try cold pack
-
+  
   utter_nasal-blockage-a:
   - text: You have nasal-blockage. You should use nasivion nasal spray when your nose is blocked.
   utter_nasal-blockage-b:
@@ -101,7 +110,7 @@ utter_headache-a:
   utter_nasal-blockage-advice:
   - text: use steam vapourizer and avoid cold baths
 
-utter_cough-a:
+  utter_cough-a:
   - text: You have cough. You should take 5mL dosage of Benadryl Syrup when you get cough
   utter_cough-b:
   - text: You have cough. You should take 10mL dosage of Benadryl Syrup when you get cough
@@ -115,7 +124,7 @@ utter_cough-a:
   - text: "You have a cold. You should take a 10mg dosage of Cetrizine after your dinner, if the problem persists."
 
   utter_common-cold-advice:
-  - text: "common-cold advice here."
+  - text: "Stay hydrated. Water, Warm lemon water with honey helps loosen congestion and prevents dehydration"
 
   utter_anything-else:
   - text: "Is there anything else I can help you with?"
@@ -292,6 +301,24 @@ utter_cough-a:
   - text: you have vitaminD deficeincy. You should take vitamin D tablet once a week
   utter_vit-d-deficiency-advice:
   - text: Please get sunlight for at least half an hour day to get proper vitamin D
+  utter_paracetamol:
+  - text: paracetamol is best you will never die
+  utter_drug-info:
+    - condition:
+        - type: slot
+          name: drug_name
+          value: cocain
+      text: "cocain is used to travel the universe from your room"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: crystal-meth
+      text: "crystal meth is alss nice should try"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ibuprofen
+      text: "ibuprofen is useful in a range of rashes and pains in the body"
 
 
 
