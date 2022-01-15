@@ -148,9 +148,9 @@ responses:
   utter_ringworm-b:
   - text: You have ringworm. You should apply lotrimin ointment on the infected area.
   utter_ringworm-advice:
-  - text: Wash the infected area regularly. Don’t use wet clothes.
+  - text: Wash the infected area regularly. Do not use wet clothes.
   utter_toothache-a:
-  - text: You have toothache. You should take one tablet of Diclofenac when you get pain , do visit a dentist.
+  - text: You have toothache. You should take one tablet of Diclofenac when you get pain, do visit a dentist.
   utter_toothache-b:
   - text: You have toothache. You should take one tablet of Diclofenac when you get pain, do visit a dentist.
   utter_toothache-advice:
@@ -301,24 +301,267 @@ responses:
   - text: you have vitaminD deficeincy. You should take vitamin D tablet once a week
   utter_vit-d-deficiency-advice:
   - text: Please get sunlight for at least half an hour day to get proper vitamin D
-  utter_paracetamol:
-  - text: paracetamol is best you will never die
   utter_drug-info:
     - condition:
         - type: slot
           name: drug_name
-          value: cocain
-      text: "cocain is used to travel the universe from your room"
+          value: clonazepam
+      text: "clonazepam is approved for the treatment of panic disorder"
     - condition:
         - type: slot
           name: drug_name
-          value: crystal-meth
-      text: "crystal meth is alss nice should try"
+          value: copper t
+      text: "It is used for Birth Control"  
     - condition:
         - type: slot
           name: drug_name
-          value: ibuprofen
-      text: "ibuprofen is useful in a range of rashes and pains in the body"
+          value: mirtazapine
+      text: "mirtazapine is an antidepressant.It is used for Depression"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: chantix
+      text: "chantix is the best medicine to help adults stop smoking"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ambien
+      text: "ambien (zolpidem) is a sedative and used to treat a certain sleep problem (insomnia) in adults"   
+    - condition:
+        - type: slot
+          name: drug_name
+          value: actos
+      text: "actos is the best medicine used to treat the symptoms of type 2 diabetes mellitus."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: enbrel sureclick
+      text: "enbrel sureclick is used alone or in combination with an immunosuppressant (such as methotrexate) to treat certain types of arthritis (such as rheumatoid, psoriatic, juvenile idiopathic, and ankylosing spondylitis)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lexapro
+      text: "lexapro is an antidepressant and used to treat depression and anxiety"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: angiox
+      text: "angiox is indicated as an anticoagulant in adult patients undergoing percutaneous coronary intervention (PCI)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: campral
+      text: "campral is used along with counseling and support to help people who are alcohol dependent not drink alcohol"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: miconazole
+      text: "miconazole is used to treat vaginal yeast infections in adults and children 12 years of age and older"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: levora
+      text: "levora is used as contraception to prevent pregnancy"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: amitriptyline
+      text: "amitriptyline is used for treating pain,to treat nerve pain (neuralgia) and back pain as well as to help prevent migraine attacks"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ciprofloxacin
+      text: "ciprofloxacin is used to treat bacterial infections in many different parts of the body"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: nuvigil
+      text: "nuvigil is the best medicine used to treat the symptoms of Obstructive Sleep Apnea, Narcolepsy and Shift Work Sleep Disorder"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: movantik
+      text: "movantik is used to treat constipation caused by opioid medications in people with ongoing pain that is not caused by cancer" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: viscodyne-d syrup
+      text: "viscodyne-d syrup is a combination medicine used in the treatment of dry cough" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: kevzara
+      text: "kevzara is used to treat adult patients with moderately to severely active rheumatoid arthritis (RA)" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: klonopin
+      text: "klonopin slows down brain activity to help users feel relaxed" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: enteragam
+      text: "enteragam is a medical food used to treat patients with bowel problems and frequent diarrhea" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: oxybutynin
+      text: "oxybutynin works by relaxing the muscles around bladder" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: zyclara
+      text: "zyclara is used to treat actinic keratoses (AK) which are precancerous growths on the skin. AK are caused by too much sun exposure.Treating this condition can decrease the risk of complications from them" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: seroquel
+      text: "seroquel is used to treat certain mental/mood conditions (such as schizophrenia, bipolar disorder, sudden episodes of mania or depression associated with bipolar disorder)"                                    
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lisinopril
+      text: "lisinopril is considered to be a gold standard drug in the treatment of high blood pressure, and is also used to treat heart failure and after heart attacks"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lofexidine
+      text: "lofexidine is used to manage opioid withdrawal symptoms (e.g., sick feeling, stomach cramps, muscle spasms or twitching, cold sensation)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: loratadine
+      text: "loratadine is an antihistamine medicine that helps with the symptoms of allergies. It's used to treat: hay fever. conjunctivitis (red, itchy eyes) eczema"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lyrica
+      text: "lyrica is used to treat pain caused by nerve damage due to diabetes, shingles (herpes zoster) infection, or spinal cord injury"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: melatonin
+      text: "melatonin sends messages to the receptor agonist in the brain and other areas of the body to help control the sleep and wake cycles. It is an effective treatment for jet lag"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: meloxicam
+      text: "meloxicam is used to treat arthritis. It reduces pain, swelling, and stiffness of the joints"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: metformin
+      text: "metformin is the first-line medication for the treatment of type 2 diabetes, particularly in people who are overweight. It is also used in the treatment of polycystic ovary syndrome" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: methadone
+      text: "methadone is a powerful drug used for pain relief and treatment of drug addiction"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: methotrexate
+      text: "methotrexate is a chemotherapy agent and immune-system suppressant.It is used to treat cancer, autoimmune diseases, and ectopic pregnancy and for medical abortions"  
+    - condition:
+        - type: slot
+          name: drug_name
+          value: metoprolol
+      text: "metoprolol is a selective β₁ receptor blocker medication.It is used to treat high blood pressure, chest pain due to poor blood flow to the heart, and a number of conditions involving an abnormally fast heart rate" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: naloxone
+      text: "naloxone blocks or reverses the effects of opioid medication, including extreme drowsiness, slowed breathing, or loss of consciousness"     
+    - condition:
+        - type: slot
+          name: drug_name
+          value: naltrexone
+      text: "naltrexone used to manage alcohol or opioid use disorder by reducing cravings and feelings of euphoria associated with substance use disorder"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: naproxen
+      text: "naproxen is used to relieve pain from various conditions such as headache, muscle aches, tendonitis, dental pain, and menstrual cramps"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: omeprazole
+      text: "omeprazole is used to treat symptoms of (GERD) and other conditions caused by excess stomach acid.It is also used to promote healing of erosive esophagitis"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: patisiran
+      text: "patisiran is a medication for the treatment of polyneuropathy in people with hereditary transthyretin-mediated amyloidosis"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: otezla
+      text: "otezla treatment of certain types of psoriasis and psoriatic arthritis"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ozempic
+      text: "ozempic is a prescription medicine used to treat the symptoms of Type 2 Diabetes Mellitus"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: pantoprazole
+      text: "pantoprazole is a proton pump inhibitor used for the treatment of stomach ulcers, short-term treatment of erosive esophagitis due to GERD"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: prednisone
+      text: "prednisone is used to treat conditions such as arthritis, blood disorders, breathing problems, severe allergies, skin diseases, cancer, eye problems"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: tramadol
+      text: "tramadol is an opioid pain medication, used to relieve moderate to moderately severe pain, including pain after surgery"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: trazodone
+      text: "trazodone is an antidepressant medication, used to treat major depressive disorder, anxiety disorders, schizophrenia, trouble falling asleep"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: viagra
+      text: "viagra is used to treat erectile dysfunction and pulmonary arterial hypertension"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: wellbutrin
+      text: "wellbutrin is an atypical antidepressant primarily used to treat major depressive disorder and to support smoking cessation"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: xanax
+      text: "xanax is used to treat anxiety and panic disorders. It works by decreasing abnormal excitement in the brain"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: amlodipine
+      text: "amlodipine is a calcium channel blocker medication used to treat high blood pressure and coronary artery disease"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: amoxicillin
+      text: "amoxicillin is an antibiotic used to treat a number of bacterial infections (eg:middle ear infection, strep throat, pneumonia, skin infections, and urinary tract infections)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ativan
+      text: "ativan is used to treat anxiety disorders, trouble sleeping, severe agitation, active seizures including status epilepticus, alcohol withdrawal, and chemotherapy-induced nausea and vomiting"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: benzonatate
+      text: "benzonatate is used to treat coughs caused by the common cold and other breathing problems (e.g., pneumonia, bronchitis, emphysema, asthma)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: brilinta
+      text: "brilinta is medication used for the prevention of stroke, heart attack and other events in people with acute coronary syndrome"
 
 
 

@@ -2,24 +2,6 @@ version: "2.0"
 
 stories:
 
-- story: paracetamol
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: problem_drug-info
-  - slot_was_set:
-    - drug_name: paracetamol
-  - action: utter_drug-info
-
-- story: Crocin
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: problem_drug-info
-  - slot_was_set:
-    - drug_name: crocin
-  - action: utter_drug-info
-
 
 - story: headache 1
   steps:
@@ -1887,3 +1869,497 @@ stories:
   - action: utter_weakness-b
   - action: utter_weakness-advice
 
+- story: ibuprofen
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: ibuprofen
+  - action: utter_drug-info
+
+- story: paracetamol
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: paracetamol
+  - action: utter_drug-info
+
+- story: crocin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: crocin
+  - action: utter_drug-info  
+
+- story: clonazepam
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: clonazepam
+  - action: utter_drug-info
+  
+- story: copper t
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: copper t
+  - action: utter_drug-info  
+  
+- story: mirtazapine
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: mirtazapine
+  - action: utter_drug-info  
+  
+- story: chantix
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: chantix
+  - action: utter_drug-info  
+  
+- story: ambien
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: ambien
+  - action: utter_drug-info  
+  
+- story: actos
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: actos
+  - action: utter_drug-info  
+  
+- story: enbrel sureclick
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: enbrel sureclick
+  - action: utter_drug-info  
+  
+- story: lexapro
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: lexapro
+  - action: utter_drug-info  
+  
+- story: angiox
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: angiox
+  - action: utter_drug-info  
+  
+- story: campral
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: campral
+  - action: utter_drug-info  
+  
+- story: miconazole
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: miconazole
+  - action: utter_drug-info  
+  
+- story: levora
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: levora
+  - action: utter_drug-info  
+  
+- story: amitriptyline
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: amitriptyline
+  - action: utter_drug-info  
+  
+- story: ciprofloxacin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: ciprofloxacin
+  - action: utter_drug-info  
+  
+- story: nuvigil
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: nuvigil
+  - action: utter_drug-info  
+  
+- story: movantik
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: movantik
+  - action: utter_drug-info  
+  
+- story: viscodyne-d syrup
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: viscodyne-d syrup
+  - action: utter_drug-info  
+  
+- story: kevzara
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: kevzara
+  - action: utter_drug-info  
+  
+- story: klonopin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: klonopin
+  - action: utter_drug-info  
+  
+- story: enteragam
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: enteragam
+  - action: utter_drug-info  
+  
+- story: oxybutynin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: oxybutynin
+  - action: utter_drug-info  
+  
+- story: zyclara
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: zyclara
+  - action: utter_drug-info    
+  
+- story: seroquel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: seroquel
+  - action: utter_drug-info  
+  
+- story: lisinopril
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: lisinopril
+  - action: utter_drug-info  
+  
+- story: lofexidine
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: lofexidine
+  - action: utter_drug-info  
+  
+- story: loratadine
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: loratadine
+  - action: utter_drug-info  
+  
+- story: lyrica
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: lyrica
+  - action: utter_drug-info  
+  
+- story: melatonin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: melatonin
+  - action: utter_drug-info  
+  
+- story: meloxicam
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: meloxicam
+  - action: utter_drug-info  
+  
+- story: metformin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: metformin
+  - action: utter_drug-info  
+  
+- story: methadone
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: methadone
+  - action: utter_drug-info  
+  
+- story: methotrexate
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: methotrexate
+  - action: utter_drug-info  
+  
+- story: metoprolol
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: metoprolol
+  - action: utter_drug-info  
+  
+- story: naloxone
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: naloxone
+  - action: utter_drug-info  
+  
+- story: naltrexone
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: naltrexone
+  - action: utter_drug-info  
+  
+- story: naproxen
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: naproxen
+  - action: utter_drug-info  
+  
+- story: omeprazole
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: omeprazole
+  - action: utter_drug-info  
+  
+- story: patisiran
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: patisiran
+  - action: utter_drug-info  
+  
+- story: otezla
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: otezla
+  - action: utter_drug-info  
+  
+- story: ozempic
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: ozempic
+  - action: utter_drug-info  
+  
+- story: pantoprazole
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: pantoprazole
+  - action: utter_drug-info  
+  
+- story: prednisone
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: prednisone
+  - action: utter_drug-info  
+  
+- story: tramadol
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: tramadol
+  - action: utter_drug-info  
+  
+- story: trazodone
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: trazodone
+  - action: utter_drug-info  
+  
+- story: viagra
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: viagra
+  - action: utter_drug-info  
+  
+- story: wellbutrin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: wellbutrin
+  - action: utter_drug-info  
+  
+- story: xanax
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: xanax
+  - action: utter_drug-info  
+  
+- story: amlodipine
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: amlodipine
+  - action: utter_drug-info  
+  
+- story: amoxicillin
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: amoxicillin
+  - action: utter_drug-info  
+ 
+- story: ativan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: ativan
+  - action: utter_drug-info 
+ 
+- story: benzonatate
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: benzonatate
+  - action: utter_drug-info 
+ 
+- story: brilinta
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: brilinta
+  - action: utter_drug-info 

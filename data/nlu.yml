@@ -864,7 +864,122 @@ nlu:
     - i want information about [paracetamol](drug_name)
     - tell me about [crocin](drug_name)
     - i want to know about [paracetamol](drug_name)
-    - why is [crocin](drug_name) used
+    - why is [ibuprofen](drug_name) used
     - whats the dosage of [paracetamol](drug_name)
-    - tell me details about [calpol](drug_name)
+    - tell me details about [Clonazepam](drug_name)
+    - give me details about [paracetamol](drug_name)
+    - i want information about [paracetamol](drug_name)
+    - tell me about [crocin](drug_name)
+    - i want to know about [paracetamol](drug_name)
+    - why is [miconazole](drug_name) used
+    - whats the dosage of [mirtazapine](drug_name)
+    - tell me details about [ambien](drug_name)
 
+- lookup: drug_name
+  examples: |
+    - paracetamol
+    - crocin
+    - ibuprofen
+    - clonazepam
+    - copper
+    - mirtazapine
+    - chantix
+    - ambien
+    - actos
+    - enbrel
+    - lexapro
+    - angiox
+    - campral
+    - miconazole
+    - levora
+    - amitriptyline
+    - ciprofloxacin
+    - nuvigil
+    - movantik
+    - viscodyne
+    - kevzara
+    - klonopin
+    - enteragam
+    - oxybutynin
+    - zyclara
+    - seroquel
+    - lisinopril
+    - lofexidine
+    - loratadine
+    - lyrica
+    - melatonin
+    - meloxicam
+    - metformin
+    - methadone
+    - methotrexate
+    - metoprolol
+    - naloxone
+    - naltrexone
+    - naproxen
+    - omeprazole
+    - patisiran
+    - otezla
+    - ozempic
+    - pantoprazole
+    - prednisone
+    - tramadol
+    - trazodone
+    - viagra
+    - wellbutrin
+    - xanax
+    - amlodipine
+    - amoxicillin
+    - ativan
+    - benzonatate
+    - brilinta
+    - Copper
+    - Mirtazapine
+    - Chantix
+    - Ambien
+    - Actos
+    - Enbrel
+    - Lexapro
+    - Angiox
+    - Campral
+    - Miconazole
+    - Levora
+    - Amitriptyline
+    - Ciprofloxacin
+    - Nuvigil
+    - Movantik
+    - Viscodyne
+    - Kevzara
+    - Klonopin
+    - Enteragam
+    - Oxybutynin
+    - Zyclara
+    - Seroquel
+    - Lisinopril
+    - Lofexidine
+    - Loratadine
+    - Lyrica
+    - Melatonin
+    - Meloxicam
+    - Metformin
+    - Methadone
+    - Methotrexate
+    - Metoprolol
+    - Naloxone
+    - Naltrexone
+    - Naproxen
+    - Omeprazole
+    - Patisiran
+    - Otezla
+    - Ozempic
+    - Pantoprazole
+    - Prednisone
+    - Tramadol
+    - Trazodone
+    - Viagra
+    - Wellbutrin
+    - Xanax
+    - Amlodipine
+    - Amoxicillin
+    - Ativan
+    - Benzonatate
+    - Brilinta

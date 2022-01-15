@@ -17,6 +17,11 @@ pipeline:
   - name: DIETClassifier
     epochs: 50
     constrain_similarities: true
+  - name: RegexEntityExtractor
+    case_sensitive: False
+    use_lookup_tables: true
+    use_regexes: true
+    "use_word_boundaries": true
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 50
