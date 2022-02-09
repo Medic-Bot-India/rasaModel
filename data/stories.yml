@@ -1869,14 +1869,16 @@ stories:
   - action: utter_weakness-b
   - action: utter_weakness-advice
 
-# - story: ibuprofen
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: problem_drug-info
-#   - slot_was_set:
-#     - drug_name: ibuprofen
-#   - action: utter_drug_info
+- story: ibuprofen
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: ibuprofen
+  - action: utter_drug_info
+  - action: utter_drug_usage
+  - action: utter_drug_side_effects
   
 # - story: paracetamol
 #   steps:
@@ -1886,6 +1888,8 @@ stories:
 #   - slot_was_set:
 #     - drug_name: paracetamol
 #   - action: utter_drug_info
+#   - action: utter_drug_usage
+
 
 # - story: crocin
 #   steps:
@@ -1894,17 +1898,20 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: crocin
-#   - action: utter_drug_info  
+#     - action: utter_drug_info
+#   - action: utter_drug_usage
+#   - action: utter_drug_usage
 
-- story: clonazepam
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: problem_drug-info
-  - slot_was_set:
-    - drug_name: clonazepam
-  - action: utter_drug_info
-  - action: utter_drug_usage
+
+# - story: clonazepam
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: problem_drug-info
+#   - slot_was_set:
+#     - drug_name: clonazepam
+#   - action: utter_drug_info
+#   - action: utter_drug_usage
   
 # - story: copper t
 #   steps:
@@ -1913,7 +1920,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: copper t
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: mirtazapine
 #   steps:
@@ -1922,7 +1930,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: mirtazapine
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: chantix
 #   steps:
@@ -1931,7 +1940,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: chantix
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: ambien
 #   steps:
@@ -1940,7 +1950,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: ambien
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: actos
 #   steps:
@@ -1949,7 +1960,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: actos
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: enbrel sureclick
 #   steps:
@@ -1958,7 +1970,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: enbrel sureclick
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: lexapro
 #   steps:
@@ -1967,7 +1980,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: lexapro
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: angiox
 #   steps:
@@ -1976,7 +1990,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: angiox
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: campral
 #   steps:
@@ -1985,7 +2000,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: campral
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: miconazole
 #   steps:
@@ -1994,7 +2010,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: miconazole
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: levora
 #   steps:
@@ -2003,7 +2020,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: levora
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: amitriptyline
 #   steps:
@@ -2012,7 +2030,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: amitriptyline
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: ciprofloxacin
 #   steps:
@@ -2021,7 +2040,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: ciprofloxacin
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: nuvigil
 #   steps:
@@ -2030,7 +2050,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: nuvigil
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: movantik
 #   steps:
@@ -2039,7 +2060,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: movantik
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: viscodyne-d syrup
 #   steps:
@@ -2048,7 +2070,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: viscodyne-d syrup
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: kevzara
 #   steps:
@@ -2057,7 +2080,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: kevzara
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: klonopin
 #   steps:
@@ -2066,7 +2090,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: klonopin
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: enteragam
 #   steps:
@@ -2075,7 +2100,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: enteragam
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: oxybutynin
 #   steps:
@@ -2084,7 +2110,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: oxybutynin
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: zyclara
 #   steps:
@@ -2093,7 +2120,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: zyclara
-#   - action: utter_drug_info    
+#   - action: utter_drug_info
+#   - action: utter_drug_usage    
   
 # - story: seroquel
 #   steps:
@@ -2102,7 +2130,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: seroquel
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: lisinopril
 #   steps:
@@ -2111,7 +2140,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: lisinopril
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: lofexidine
 #   steps:
@@ -2120,7 +2150,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: lofexidine
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: loratadine
 #   steps:
@@ -2129,7 +2160,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: loratadine
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: lyrica
 #   steps:
@@ -2138,7 +2170,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: lyrica
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: melatonin
 #   steps:
@@ -2147,7 +2180,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: melatonin
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: meloxicam
 #   steps:
@@ -2156,7 +2190,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: meloxicam
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: metformin
 #   steps:
@@ -2165,7 +2200,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: metformin
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: methadone
 #   steps:
@@ -2174,7 +2210,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: methadone
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: methotrexate
 #   steps:
@@ -2183,7 +2220,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: methotrexate
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: metoprolol
 #   steps:
@@ -2192,7 +2230,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: metoprolol
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: naloxone
 #   steps:
@@ -2201,7 +2240,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: naloxone
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: naltrexone
 #   steps:
@@ -2210,7 +2250,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: naltrexone
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: naproxen
 #   steps:
@@ -2219,7 +2260,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: naproxen
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: omeprazole
 #   steps:
@@ -2228,7 +2270,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: omeprazole
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: patisiran
 #   steps:
@@ -2237,7 +2280,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: patisiran
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: otezla
 #   steps:
@@ -2246,7 +2290,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: otezla
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: ozempic
 #   steps:
@@ -2255,7 +2300,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: ozempic
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: pantoprazole
 #   steps:
@@ -2264,7 +2310,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: pantoprazole
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: prednisone
 #   steps:
@@ -2273,7 +2320,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: prednisone
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: tramadol
 #   steps:
@@ -2282,7 +2330,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: tramadol
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: trazodone
 #   steps:
@@ -2291,7 +2340,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: trazodone
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: viagra
 #   steps:
@@ -2300,7 +2350,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: viagra
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: wellbutrin
 #   steps:
@@ -2309,7 +2360,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: wellbutrin
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: xanax
 #   steps:
@@ -2318,7 +2370,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: xanax
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: amlodipine
 #   steps:
@@ -2327,7 +2380,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: amlodipine
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
   
 # - story: amoxicillin
 #   steps:
@@ -2336,7 +2390,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: amoxicillin
-#   - action: utter_drug_info  
+#   - action: utter_drug_info
+#   - action: utter_drug_usage  
  
 # - story: ativan
 #   steps:
@@ -2345,7 +2400,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: ativan
-#   - action: utter_drug_info 
+#   - action: utter_drug_info
+#   - action: utter_drug_usage 
  
 # - story: benzonatate
 #   steps:
@@ -2354,7 +2410,8 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: benzonatate
-#   - action: utter_drug_info 
+#   - action: utter_drug_info
+#   - action: utter_drug_usage 
  
 # - story: brilinta
 #   steps:
@@ -2363,4 +2420,5 @@ stories:
 #   - intent: problem_drug-info
 #   - slot_was_set:
 #     - drug_name: brilinta
-#   - action: utter_drug_info 
+#   - action: utter_drug_info
+#   - action: utter_drug_usage 

@@ -58,6 +58,7 @@ slots:
 responses:
   utter_greet:
   - text: "Hii! I am medicbot, your healthcare assistant. How can I help you?"
+  - text: "Hi and Welcome! Medicbot AI Assistant is ready to help you here"
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -69,7 +70,13 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a healthcare assistant chatbot, powered by RASA"
+
+  utter_anything-else:
+  - text: "Is there anything else I can help you with?"
+
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
 
   utter_ask-cold:
   - text: "Are you feeling cold?"
@@ -125,9 +132,6 @@ responses:
 
   utter_common-cold-advice:
   - text: "Stay hydrated. Water, Warm lemon water with honey helps loosen congestion and prevents dehydration"
-
-  utter_anything-else:
-  - text: "Is there anything else I can help you with?"
 
   utter_low-blood-pressure-a:
   - text: You have low BP. You should take 7mg dosage of  midodrine (Orvaten) for every 8 hours, it helps to narrow blood vessels to raise blood pressure. 
@@ -301,7 +305,9 @@ responses:
   - text: you have vitaminD deficeincy. You should take vitamin D tablet once a week
   utter_vit-d-deficiency-advice:
   - text: Please get sunlight for at least half an hour day to get proper vitamin D
+
   utter_drug_info:
+    - text: "hello"
     - condition:
         - type: slot
           name: drug_name
@@ -573,258 +579,519 @@ responses:
         - type: slot
           name: drug_name
           value: copper t
-      text: "It is used for Birth Control"  
+      text: "Dosage amount should be 1,400 mcg for men and 1,100 mcg for women for adults and 1.5 to 2.5 milligrams (mg) per day for adolescent"  
     - condition:
         - type: slot
           name: drug_name
           value: mirtazapine
-      text: "mirtazapine is an antidepressant.It is used for Depression"
+      text: "Dosage amount should be between 15 and 45 mg, 1 times a day for adults and it should not be given for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: chantix
-      text: "chantix is the best medicine to help adults stop smoking"
+      text: "Dosage amount should be one 0.5-milligram tablet once a day for 3 days for adults and 0.5mg twice daily for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: ambien
-      text: "ambien (zolpidem) is a sedative and used to treat a certain sleep problem (insomnia) in adults"   
+      text: "Dosage amount should be either 5 or 10 mg, taken only once per night for adults and 5 mg once daily for adolescent"   
     - condition:
         - type: slot
           name: drug_name
           value: actos
-      text: "actos is the best medicine used to treat the symptoms of type 2 diabetes mellitus."
+      text: "Dosage amount should be 15 mg once daily for adults and it is not recommended for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: enbrel sureclick
-      text: "enbrel sureclick is used alone or in combination with an immunosuppressant (such as methotrexate) to treat certain types of arthritis (such as rheumatoid, psoriatic, juvenile idiopathic, and ankylosing spondylitis)"
+      text: "Dosage amount should be 50 mg given twice a week for 3 months for adults and  50 mg given once per week for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: lexapro
-      text: "lexapro is an antidepressant and used to treat depression and anxiety"
+      text: "Dosage amount should be 10 mg once daily for adults and 5 mg once daily for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: angiox
-      text: "angiox is indicated as an anticoagulant in adult patients undergoing percutaneous coronary intervention (PCI)"
+      text: "Dosage amount should be 5mg/mL injection, 250mg/vial powder for adults and  0.25 mg/kg/h for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: campral
-      text: "campral is used along with counseling and support to help people who are alcohol dependent not drink alcohol"
+      text: "Dosage amount should be Two 333mg tablets daily for adults and  it is not recommended for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: miconazole
-      text: "miconazole is used to treat vaginal yeast infections in adults and children 12 years of age and older"
+      text: "Dosage amount should be Insert 1200 mg suppository intravaginally at bedtime for 1 day for adults and adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: levora
-      text: "levora is used as contraception to prevent pregnancy"
+      text: "Dosage amount should be 1 tab daily for 28 days for adults and it should not be given for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: amitriptyline
-      text: "amitriptyline is used for treating pain,to treat nerve pain (neuralgia) and back pain as well as to help prevent migraine attacks"
+      text: "Dosage amount should be 1 tab daily for 28 days for adults and 25 mg to 50 mg daily for aged above 11 "
     - condition:
         - type: slot
           name: drug_name
           value: ciprofloxacin
-      text: "ciprofloxacin is used to treat bacterial infections in many different parts of the body"
+      text: "Dosage amount should be 250 mg Tablet every 12 hours for adults and 10 mg/kg three times daily for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: nuvigil
-      text: "nuvigil is the best medicine used to treat the symptoms of Obstructive Sleep Apnea, Narcolepsy and Shift Work Sleep Disorder"
+      text: "Dosage amount should be 150 to 250 mg orally once a day for adults and it is not recommended for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: movantik
-      text: "movantik is used to treat constipation caused by opioid medications in people with ongoing pain that is not caused by cancer" 
+      text: "Dosage amount should be 12.5-25 mg once daily in the morning for adults and it is not recommended for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: viscodyne-d syrup
-      text: "viscodyne-d syrup is a combination medicine used in the treatment of dry cough" 
+      text: "Dosage amount should be 2 nasal aerosol sprays in each nostril once a day for adults and it is not recommended for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: kevzara
-      text: "kevzara is used to treat adult patients with moderately to severely active rheumatoid arthritis (RA)" 
+      text: "Dosage amount should be 500-1000 cells/mm³ for adults and it is not recommended for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: klonopin
-      text: "klonopin slows down brain activity to help users feel relaxed"
+      text: "Dosage amount should be 0.25--1 mg twice daily for adults and 1.5 mg orally per day divided into 3 doses for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: enteragam
-      text: "enteragam is a medical food used to treat patients with bowel problems and frequent diarrhea" 
+      text: "Dosage amount should be One packet per day, taken as a single dose for adults and ½ packet daily for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: oxybutynin
-      text: "oxybutynin works by relaxing the muscles around bladder" 
+      text: "Dosage amount should be 25 mg twice daily for adults and 400-800 mg per day for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: zyclara
-      text: "zyclara is used to treat actinic keratoses (AK) which are precancerous growths on the skin. AK are caused by too much sun exposure.Treating this condition can decrease the risk of complications from them" 
+      text: "Dosage amount should be once a day upto 8 weeks for adults and it is not recommended for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: seroquel
-      text: "seroquel is used to treat certain mental/mood conditions (such as schizophrenia, bipolar disorder, sudden episodes of mania or depression associated with bipolar disorder)"                                    
+      text: " Dosage amount should be 150-750 mg/day for adults and 400-800 mg/day for adolescent"                                    
     - condition:
         - type: slot
           name: drug_name
           value: lisinopril
-      text: "lisinopril is considered to be a gold standard drug in the treatment of high blood pressure, and is also used to treat heart failure and after heart attacks"
+      text: "Dosage amount should be 5-10mg once daily for adults and 0.07 mg per kilogram (kg) & body weight dependent for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: lofexidine
-      text: "lofexidine is used to manage opioid withdrawal symptoms (e.g., sick feeling, stomach cramps, muscle spasms or twitching, cold sensation)"
+      text: "Dosage amount should be  0.54 mg orally 4 times a day for adults and it is not recommended for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: loratadine
-      text: "loratadine is an antihistamine medicine that helps with the symptoms of allergies. It's used to treat: hay fever. conjunctivitis (red, itchy eyes) eczema"
+      text: "Dosage amount should be 10 mg per day for adults and 5 mg/day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: lyrica
-      text: "lyrica is used to treat pain caused by nerve damage due to diabetes, shingles (herpes zoster) infection, or spinal cord injury"
+      text: "Dosage amount should be 75 to 150 mg per day in 2 doses for adults and 10 mg/kg/day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: melatonin
-      text: "melatonin sends messages to the receptor agonist in the brain and other areas of the body to help control the sleep and wake cycles. It is an effective treatment for jet lag"
+      text: "Dosage amount should be 1-10mg per day for adults and 2.5 - 3mg per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: meloxicam
-      text: "meloxicam is used to treat arthritis. It reduces pain, swelling, and stiffness of the joints"
+      text: "Dosage amount should be 7.5 mg once a day for adults and 0.125 mg per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: metformin
-      text: "metformin is the first-line medication for the treatment of type 2 diabetes, particularly in people who are overweight. It is also used in the treatment of polycystic ovary syndrome" 
+      text: "Dosage amount should be 500 mg orally in 2 doses per day for adults and 0.125 mg per for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: methadone
-      text: "methadone is a powerful drug used for pain relief and treatment of drug addiction"
+      text: "Dosage amount should be 2.5 mg orally every 8 to 12 hours per day for adults and  0.15 to 0.3 mg/kg/day for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: methotrexate
-      text: "methotrexate is a chemotherapy agent and immune-system suppressant.It is used to treat cancer, autoimmune diseases, and ectopic pregnancy and for medical abortions"  
+      text: "Dosage amount should be 2.5 milligrams (mg) 2 to 4 times a week for adults and 10–15 mg/m2/week for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: metoprolol
-      text: "metoprolol is a selective β₁ receptor blocker medication.It is used to treat high blood pressure, chest pain due to poor blood flow to the heart, and a number of conditions involving an abnormally fast heart rate" 
+      text: "Dosage amount should be 450 mg per day for adults and 1 mg/kg & body weight dependent for adolescent" 
     - condition:
         - type: slot
           name: drug_name
           value: naloxone
-      text: "naloxone blocks or reverses the effects of opioid medication, including extreme drowsiness, slowed breathing, or loss of consciousness"     
+      text: "Dosage amount should be 400 to 2000 micrograms (0.4mg to 2mg) per day for adults and 1 mg/kg & body weight dependent for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: naltrexone
-      text: "naltrexone used to manage alcohol or opioid use disorder by reducing cravings and feelings of euphoria associated with substance use disorder"
+      text: "Dosage amount should be 50 mg orally per day for adults and 4.5 mg per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: naproxen
-      text: "naproxen is used to relieve pain from various conditions such as headache, muscle aches, tendonitis, dental pain, and menstrual cramps"
+      text: "Dosage amount should be 1500 mg orally once a day  for adults and 10 mg/kg divided into two doses for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: omeprazole
-      text: "omeprazole is used to treat symptoms of (GERD) and other conditions caused by excess stomach acid.It is also used to promote healing of erosive esophagitis"
+      text: "Dosage amount should be 20 or 40 mg per day in 3 doses for adults and 2.5 mg orally per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: patisiran
-      text: "patisiran is a medication for the treatment of polyneuropathy in people with hereditary transthyretin-mediated amyloidosis"
+      text: "Dosage amount should be 300 micrograms per kg body weight for adults and 10 mg/5 mL solution in a single-dose per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: otezla
-      text: "otezla treatment of certain types of psoriasis and psoriatic arthritis"
+      text: "Dosage amount should be 30 mg taken orally per day in 2 doses for adults and 20-30mg per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: ozempic
-      text: "ozempic is a prescription medicine used to treat the symptoms of Type 2 Diabetes Mellitus"
+      text: "Dosage amount should be 0.25 mg subcutaneous injection once weekly for 4 weeks for adults and it is Not recommendedper for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: pantoprazole
-      text: "pantoprazole is a proton pump inhibitor used for the treatment of stomach ulcers, short-term treatment of erosive esophagitis due to GERD"
+      text: "Dosage amount should be 40 mg per day for adults and  20 mg or 40 mg per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: prednisone
-      text: "prednisone is used to treat conditions such as arthritis, blood disorders, breathing problems, severe allergies, skin diseases, cancer, eye problems"
+      text: "Dosage amount should be 2.5 to 10 mg/day for adults and  0.14 to 2 mg per kilogram (kg) of body weight per day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: tramadol
-      text: "tramadol is an opioid pain medication, used to relieve moderate to moderately severe pain, including pain after surgery"
+      text: "Dosage amount should be 25 mg per day in one dose for adults and 1–2 mg kg–1 per day in 4 doses for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: trazodone
-      text: "trazodone is an antidepressant medication, used to treat major depressive disorder, anxiety disorders, schizophrenia, trouble falling asleep"
+      text: "Dosage amount should be 150 mg/day orally divided every 8-12 hours for adults and 100 mg IR three times daily for 7 days for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: viagra
-      text: "viagra is used to treat erectile dysfunction and pulmonary arterial hypertension"
+      text: "Dosage amount should be 50 mg before 1 hour of sexual activity for adults and not recommended for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: wellbutrin
-      text: "wellbutrin is an atypical antidepressant primarily used to treat major depressive disorder and to support smoking cessation"
+      text: "Dosage amount should be 100 mg orally twice a day for adults and  1.4 to 6 mg/kg/day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: xanax
-      text: "xanax is used to treat anxiety and panic disorders. It works by decreasing abnormal excitement in the brain"
+      text: "Dosage amount should be 0.25 to 0.5 milligram (mg) 3 times a day for adults and  0.50 mg to 1.5 mg daily for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: amlodipine
-      text: "amlodipine is a calcium channel blocker medication used to treat high blood pressure and coronary artery disease"
+      text: "Dosage amount should be 5-10mg daily for adults and 5 milligrams (mg) once a day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: amoxicillin
-      text: "amoxicillin is an antibiotic used to treat a number of bacterial infections (eg:middle ear infection, strep throat, pneumonia, skin infections, and urinary tract infections)"
+      text: "Dosage amount should be 250 mg orally every 8 hours for adults and 15 mg/kg/day for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: ativan
-      text: "ativan is used to treat anxiety disorders, trouble sleeping, severe agitation, active seizures including status epilepticus, alcohol withdrawal, and chemotherapy-induced nausea and vomiting"
+      text: "Dosage amount should be 2 to 3 mg orally per day for adults and 2 to 4 milligrams (mg) for adolescent"
     - condition:
         - type: slot
           name: drug_name
           value: benzonatate
-      text: "benzonatate is used to treat coughs caused by the common cold and other breathing problems (e.g., pneumonia, bronchitis, emphysema, asthma)"
+      text: "Dosage amount should be 100 mg to 200 mg orally three times a day for adults and 100 mg or 200 mg capsule three times for aged above 12"
     - condition:
         - type: slot
           name: drug_name
           value: brilinta
-      text: "brilinta is medication used for the prevention of stroke, heart attack and other events in people with acute coronary syndrome"
+      text: "Dosage amount should be 90 mg twice daily for adults and 2 doses, 0.125-2.25 mg/kg daily for adolescent"
 
+  utter_drug_side_effects:
+    - condition:
+        - type: slot
+          name: drug_name
+          value: clonazepam
+      text: "side effects include Drowsiness, dizziness, tiredness, loss of coordination, or increased saliva production"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: copper t
+      text: "side effects include irregular periods,heavier or longer periods,more or worse cramping during your periods "  
+    - condition:
+        - type: slot
+          name: drug_name
+          value: mirtazapine
+      text: "side effects are Drowsiness,Weight gain,Dry mouth,Constipation,Lack of energy"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: chantix
+      text: "side effects are nausea,constipation, gas,sleep problems (insomnia)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ambien
+      text: "side effects are Rapid heartbeat,Nausea,Vomiting,Diarrhea,Loss of appetite"   
+    - condition:
+        - type: slot
+          name: drug_name
+          value: actos
+      text: "side effects are upper respiratory tract infection, headache, sinus infection, muscle pain and sore throat."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: enbrel sureclick
+      text: "side effects are infection,common cold"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lexapro
+      text: "side effects are painful urination,dizziness, drowsiness, tiredness, weakness,sleep problems (insomnia)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: angiox
+      text: "side effects are pain in the back or pelvis,nausea,vomiting,stomach pain"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: campral
+      text: "side effects are diarrhea,nausea,vomiting,gas "
+    - condition:
+        - type: slot
+          name: drug_name
+          value: miconazole
+      text: "side effects are itching, peeling, or dry skin"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: levora
+      text: "side effects are nausea,vomiting,stomach cramping/bloating,dizziness"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: amitriptyline
+      text: "side effects are nightmares,headaches,dry mouth,drowsiness"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ciprofloxacin
+      text: "side effects are nausea,vomiting,stomach pain,heartburn,diarrhea,vaginal itching and/or discharge,pale skin,unusual tiredness,sleepiness"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: nuvigil
+      text: "side effects are a skin rash, fever, swollen glands, flu-like symptoms, unusual bruising, yellowing of skin or eyes (jaundice), bruising, severe tingling"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: movantik
+      text: "side effects are stomach/abdominal pain, diarrhea, nausea, gas (flatulence), vomiting, headache, increased or excessive sweating, chills" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: viscodyne-d syrup
+      text: "side effects are Stomach pain, Dizziness, Drowsiness, Restlessness, Nausea or vomiting, Lightheadedness" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: kevzara
+      text: "side effects are low white blood cell count (neutropenia), upper respiratory infections, nasal congestion, runny nose, sore throat,urinary tract infections" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: klonopin
+      text: "side effects are drowsiness, dizziness, weakness, unsteadiness, depression, loss of orientation, headache, sleep disturbances"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: enteragam
+      text: "side effects are mild nausea, constipation, flatulence, stomach cramps, headache, increased urination" 
+    - condition:
+        - type: slot
+          name: drug_name
+          value: oxybutynin
+      text: "side effects are dry mouth,blurred vision,dry eyes, nose, or skin, stomach pain, constipation, diarrhea, nausea"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: zyclara
+      text: "side effects are headache,treatment area skin reactions (irritation, pain, itching, dryness, flaking, scabbing, crusting, redness, hardening of skin, changes in color of treated skin)"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: seroquel
+      text: "side effects are mood or behavior changes, constipation, stomach pain, upset stomach, nausea, vomiting, drowsiness, dizziness"                                   
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lisinopril
+      text: "side effects are cough, dizziness, headache, excessive tiredness, nausea, diarrhea, weakness, sneezing"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lofexidine
+      text: "side effects are dizziness on standing, slow heart rate, low blood pressure (hypotension), dizziness, drowsiness, sleepiness, and dry mouth"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: loratadine
+      text: "side effects are headache, dry mouth, nosebleed, sore throat, mouth sores, difficulty falling asleep or staying asleep, nervousness, weakness"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: lyrica
+      text: "side effects are Loss Of Muscle Coordination, Dry Mouth, Difficulty Concentrating, Dizziness"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: melatonin
+      text: "side effects are daytime drowsiness, dizziness, weakness, or confusion. vivid dreams, nightmares. feeling depressed, anxious, irritable"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: meloxicam
+      text: "side effects are abdominal pain, diarrhea, indigestion or heartburn, nausea, dizziness, headache, itching or rash"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: metformin
+      text: "side effects are physical weakness (asthenia),diarrhea, gas, symptoms of weakness, muscle pain (myalgia),upper respiratory tract infection"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: methadone
+      text: "side effects are Nausea, vomiting, constipation, lightheadedness, dizziness, dry mouth, drowsiness, or sweating"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: methotrexate
+      text: "side effects are feeling sick, headaches, vomiting, diarrhoea, shortness of breath, mouth ulcers, minor hair loss and hair thinning"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: metoprolol
+      text: "side effects are dizziness or lightheadedness, tiredness, depression, nausea, dry mouth, stomach pain, vomiting"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: naloxone
+      text: "side effects are gastrointestinal disorders, aggressiveness, tachycardia, shivering, sweating and tremor"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: naltrexone
+      text: "side effects are Abdominal or stomach cramping or pain,anxiety, nervousness, restlessness or trouble sleeping, headache"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: naproxen
+      text: "side effects are constipation, diarrhea, gas, excessive thirst, headache, dizziness, lightheadedness, drowsiness."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: omeprazole
+      text: "side effects are constipation. diarrhea, gas, excessive thirst, headache, dizziness, lightheadedness"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: patisiran
+      text: "side effects are Blistering, crusting, irritation, itching, or reddening of the skin burning, pain, redness, or swelling at the injection site"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: otezla
+      text: "side effects are diarrhea, headache, nausea, upper respiratory tract infection, vomiting, runny or stuffy nose, abdominal pain"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ozempic
+      text: "side effects are nausea, diarrhea, vomiting, stomach (abdominal) pain, and constipation"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: pantoprazole
+      text: "side effects are Headache, Abdominal pain v, Facial puffiness, Generalized swelling (edema), Chest pain, Diarrhea, Constipation."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: prednisone
+      text: "side effects are headache, dizziness, difficulty falling asleep or staying asleep, inappropriate happiness, changes in personality, bulging eyes"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: tramadol
+      text: "side effects are sleepiness.,headache,nervousness,uncontrollable shaking of a part of the body,muscle tightness,changes in mood,heartburn or indigestion,dry mouth."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: trazodone
+      text: "side effects are nausea,vomiting,diarrhea,constipation,changes in appetite or weight,weakness or tiredness,nervousness,dizziness ."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: viagra
+      text: "side effects are warmth or redness in the face, neck, or chest stuffy nose,headaches,stomach pain,upset stomach,nausea,diarrhea,memory problems."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: wellbutrin
+      text: "side effects are Headache, weight loss, dry mouth, trouble sleeping (insomnia), nausea, dizziness, constipation, fast heartbeat, and sore throat. "
+    - condition:
+        - type: slot
+          name: drug_name
+          value: xanax
+      text: "side effects are Drowsiness,Tiredness,,Dizziness,Sleep problems (insomnia),Memory problems.,Poor balance or coordination,Slurred speech,Trouble concentrating."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: amlodipine
+      text: "side effects are swelling of the hands, feet, ankles, or lower legs,headache,upset stomach,nausea,stomach pain,dizziness or lightheadedness."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: amoxicillin
+      text: "side effects are nausea,vomiting,diarrhea,stomach pain,vaginal itching or discharge,and headache."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ativan
+      text: "side effects are Drowsiness, dizziness, loss of coordination, headache, nausea,and blurred vision."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: benzonatate
+      text: "side effects are nausea,constipation,drowsiness,headache,dizziness,stuffy nose,feeling chilly,burning in the eyes."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: brilinta
+      text: "side effects are bruising,bleeding more easily,nosebleeds,headache,dizziness,cough,nausea,and chest pain."
 
 
 session_config:
