@@ -939,86 +939,114 @@ nlu:
 - synonym: paracetamol
   examples: |
     - Paracetamol
-    - Paracetamol
+    - PARACETAMOL
     - PARAcetmol
     - pppracetmol
+    - paRaCeTeMoL
+    - PARAcetmoL
+    - pracetemol
+    - acetaminophen
+    - Tylenol
+    - Panadol
+    - panadol
+    - Excedrin
+    - excedrin
+    - Calpol
+    - calpol
     
 - synonym: crocin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Crocin
+    - CROCIN
+    - CRocin
+    - crosin
+    - ccrocinm
+    - CrOCin
+    - krocin
 
 - synonym: ibuprofen
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Ibuprofen
+    - IBUPROFEN
+    - IbuProFeN
+    - iibuprofenn
+    - iboprofin
+    - iboprofin
+    - Iboprofen
 
 - synonym: clonazepam
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Clanazepam
+    - CLoNAZZEPAM
+    - CloNaZePam
+    - clonozepam
+    - klonozepam
+    - Klonazepam
 
 - synonym: copper
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Copper
+    - COPPER
+    - CoPPer
+    - copper suppliments
+    - coper
 
 - synonym: mirtazapine
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Mirtazapine
+    - mirtazapyne
+    - MiRtazApine
+    - mirrtaZappine
+    - MIRTAZAPINE
 
 - synonym: chantix
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Chantix
+    - CHANTIX
+    - chANtIX
+    - cchantix
 
 - synonym: ambien
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Ambien
+    - AMBEIN
+    - ambein
+    - AmbIeN
+    - ambbin
 
 - synonym: actos
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Actos
+    - ACTOS
+    - Actoos
+    - AcToS
 
 - synonym: enbrel
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Enbrel
+    - ENBREL
+    - EnBReL
+    - inbrel
+    - Enbrell
 
-- synonym: 
+- synonym: lexapro
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Lexapro
+    - LEXAPRO
+    - LeXaPrO
+    - lexxaprro
+    - escitalopram
+    - Cipralex 
+    - cipralex
+    - sipralex
 
 - synonym: angiox
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Angiox
+    - amngiox
+    - anGIOX
+    - Angiomax 
+    - Bivalirudin
 
 - synonym: campral
   examples: |
