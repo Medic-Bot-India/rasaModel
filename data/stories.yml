@@ -2293,15 +2293,6 @@ stories:
 #     - drug_name: trazodone
 #   - action: utter_drug_info  
   
-# - story: viagra
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: problem_drug-info
-#   - slot_was_set:
-#     - drug_name: viagra
-#   - action: utter_drug_info  
-  
 # - story: wellbutrin
 #   steps:
 #   - intent: greet

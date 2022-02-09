@@ -924,7 +924,6 @@ nlu:
     - prednisone
     - tramadol
     - trazodone
-    - viagra
     - wellbutrin
     - xanax
     - amlodipine
@@ -933,9 +932,384 @@ nlu:
     - benzonatate
     - brilinta
 
+
+
+
+
 - synonym: paracetamol
   examples: |
     - Paracetamol
     - Paracetamol
     - PARAcetmol
     - pppracetmol
+    
+- synonym: crocin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: ibuprofen
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: clonazepam
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: copper
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: mirtazapine
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: chantix
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: ambien
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: actos
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: enbrel
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: 
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: angiox
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: campral
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: 
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: levora
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: amitriptyline
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: ciprofloxacin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: nuvigil
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: movantik
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: viscodyne
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: kevzara
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+    
+- synonym: klonopin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: enteragam
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: oxybutynin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: zyclara
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: seroquel
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+    
+- synonym: lisinopril
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: lofexidine
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: loratadine
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: lyrica
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: melatonin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: meloxicam
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: metformin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: methadone
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: methotrexate
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: metoprolol
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: naloxone
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: naltrexone
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: naproxen
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: omeprazole
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: patisiran
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: otezla
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: ozempic
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: pantoprazole
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: prednisone
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: tramadol
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: trazodone
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: wellbutrin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: xanax
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: amlodipine
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: amoxicillin
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: ativan
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: benzonatate
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol
+
+- synonym: brilinta
+  examples: |
+    - Paracetamol
+    - Paracetamol
+    - PARAcetmol
+    - pppracetmol   
