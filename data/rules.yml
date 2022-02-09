@@ -10,4 +10,5 @@ rules:
 - rule: reply with drug information
   steps:
   - intent: problem_drug-info
-  - action: utter_drug-info
+  - action: utter_drug_info
+  - action: utter_drug_usage
