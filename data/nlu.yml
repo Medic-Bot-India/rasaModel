@@ -16,51 +16,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-    - good morning
-    - good afternoon
-    - good evening
-    - hiii
-    - hello
-    - hellooo
-    - Hi
-    - Hii
-    - Hiii
-    - Hi how are
-    - Hiii how are
-    - gud mrng
-    - gud nite
-    - good evening to
-    - hey good evening
-    - hello good evening
-    - evening
-    - good evening there
-    - good morning to
-    - hello good morning
-    - nice morning
-    - great morning
-    - morning
-    - good morning there
-    - top of the morning to
-    - a good morning
-    - hi good morning
-    - and a good morning to
-    - good morning too
-    - long time no see
-    - howdy
-    - hey there
-    - hey
-    - greetings
-    - greet
-    - hi there
-    - hello there
-    - lovely day isn't it
-    - hello again
-    - just going to say hi
-    - a good day
-    - afternoon
-    - hello hi
-    - heya
-    
+
 - intent: goodbye
   examples: |
     - good afternoon
@@ -74,68 +30,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-    - okay see you later
-    - hope to see you later
-    - bye for now
-    - you helped a lot thank you
-    - appreciate your help
-    - cheers
-    - thank you
-    - thanks a lot
-    - terrific thank you
-    - great thank you
-    - thanks so much
-    - thank you so much
-    - thanks for your help
-    - thank you for your help
-    - nice thank you
-    - I appreciate it
-    - I thank you
-    - thank you that will be all
-    - thanks buddy
-    - thanks love
-    - thank you my friend
-    - well thanks
-    - very good thank you
-    - good thanks
-    - thanks again
-    - thank you again
-    - all thank you
-    - alright thank you
-    - alright thanks
-    - no thank you that's all
-    - perfect thank you
-    - so nice of you
-    - well thank you
-    - till next time
-    - I must go
-    - goodbye
-    - see you
-    - see you soon
-    - bye-bye
-    - good bye
-    - bye bye see you
-    - bye bye see you soon
-    - bye bye take care
-    - I said bye
-    - never mind bye
-    - now bye
-    - that's all goodbye
-    - that's it goodbye
-    - leave me alone
-    - go to bed
-    - goodbye for now
-    - talk to you later
-    - you can go now
-    - get lost
-    - goodbye see you later
-    - alright bye
-    - see ya
-    - thanks bye bye
-    - okay bye
-    - okay thank you bye
-    - see you tomorrow
-    - ok bye
 
 - intent: affirm
   examples: |
@@ -145,184 +39,57 @@ nlu:
     - of course
     - that sounds good
     - correct
-    - yes please
 
 - intent: deny
   examples: |
     - no
-    - noo
-    - no am done
-    - bye
-    - No
-    - No  Bye
-    - No Thanks again
-    - nooo
-    - thanks
-    - how about no
-    - don t  sense
-    - don't
-    - don't want that
-    - disagree
-    - don't want
-    - not interested
-    - don't think so
-    - no way
-    - no it isn't
-    - no don't
-    - I'm not
-    - na
-    - no that's fine thank
+    - n
     - never
-    - said no
-    - of course not
-    - nah
-    - no tanks
-    - no never
-    - no need
-    - no thanks
-    - no sorry
-    - do not
-    - not today
-    - no it's not
-    - absolutely not
-    - not that
-    - nope
-    - don't want to
-    - no would not
-    - let 's not
-    - not needed
-    - not this time
-    - no don't do that
-    - thanks but no thanks
-    - no that's wrong
-    - not this
-    - definitely not
-    - not at this time
-    - not exactly
-    - not really no
-    - no thank   not right now
-    - actually no
-    - no leave it
-    - sorry no
-    - no incorrect
-    - nope sorry
-    - say no
+    - I don't think so
+    - don't like that
+    - no way
     - not really
-    - not right now thanks
-    - think no
-    - absolutely no
-    - no actually
-    - apparently not
-    - no do not
-    - no just no
-    - no but thank
-    - no need thanks
-    - no thank   though
-    - no thank   very much
-    - no thanks not right now
-    - no forget
 
+# - intent: mood_great
+#   examples: |
+#     - perfect
+#     - great
+#     - amazing
+#     - feeling like a king
+#     - wonderful
+#     - I am feeling very good
+#     - I am great
+#     - I am amazing
+#     - I am going to save the world
+#     - super stoked
+#     - extremely good
+#     - so so perfect
+#     - so good
+#     - so perfect
 
-- intent: ask_question
-  examples: |
-    - I have a question.
-    - question
-    - yes
-    - yes i have a question
-    - yes i want to ask a question
-    - I want to ask a question
-    - Yes, I have a question
-    - I need your help
-    - help
-    - need to ask question
-    - a question
-    - want to consult with please help me urgently
-    - question
-    - want to ask
-    - ask
-    - or want Quick Assistance
-    - I want you to answer me
-    - answer
-    - answer my question
-    - answer me
-    - give me an answer
-    - answer the question
-    - can you answer my question
-    - tell me the answer
-    - answer it
-    - give me the answer
-    - I want you to answer my question
-    - just answer the question
-    - can you answer me
-    - answers
-    - can you answer a question for me
-    - can you answer
-    - answering questions
-    - I want the answer now
-    - just answer my question
+# - intent: mood_unhappy
+#   examples: |
+#     - my day was horrible
+#     - I am sad
+#     - I don't feel very well
+#     - I am disappointed
+#     - super sad
+#     - I'm so sad
+#     - sad
+#     - very sad
+#     - unhappy
+#     - not good
+#     - not very good
+#     - extremly sad
+#     - so saad
+#     - so sad
 
-
-- intent: out_of_scope
-  examples: |
-    - sjdjajsdl
-    - asjdaljhsdj
-    - asdfja;lsdf
-    - i am batman
-    - i am iron man
-    - i love you
-    - i am a god
-    - i dont like you
-    - you are idiot
-    - aur kya haal hai
-    - tum to bade heavy chatbot ho
-    - o bete 
-    - chha gaye guru
-    - you killed my father prepare to die
-    - luke i am your father
-    - my name is inigo montayo you killed my father
-    - give me your money
-    - i am inevitable
-    - i will destroy this planet
-    - i have lot of moeny
-    - i like trains
-    - bullet train
-    - we are venom
-    - modi ji
-    - vote for modi
-    - asdhasd
-    - cadfjah
-    - asdad
-    - asdlkfja
-    - asjdfl asdlfkj alksjdf asjdfl
-    - iweuro
-    - lajkjsdfl
-    - aksjdf
-    - a fd d f sd f sd s sd d d dw
-    - asdas
-    - abra ka dabra
-    - avada kadavra
-    - yup
-    - ya
-    - hsdjahsdahsdajsd
-    - asjdasdja
-    - jjjjjjj
-    - asdkjasdjalsd.
-    
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-    - if you are a bot tell me now
-    - i want to talk to someone
-    - hey you m ust be a bot
-    - why is your name medicbot
-    - are you a robot
-    - do you use artifical intelligence
-    - what are you
-    - what are you doing bro
-    - are you AI
 
 - intent: small-duration
   examples: |
@@ -474,7 +241,6 @@ nlu:
     - i feel cold
     - i have fever and i am feeling cold
     - i have fever
-    - i recently got fever in night
     - cold
     - i have running nose
     - my nose is blocked and itchy
@@ -639,7 +405,6 @@ nlu:
     - i have troubles due to typhoid
     - i am suffering from typhoid
     - i have been recently suffering with typhoid
-    - suggest medicine for typhoid
 
 
 - intent: problem_psoriasis
@@ -964,11 +729,11 @@ nlu:
     - low vitamin d
     - low level of vit d
     - vit d low
-    - I amm suffering from vitamin D deficiency
+    - I’m suffering from vitamin D deficiency
     - im suffering from vit d deficiency
     - suffering from ricket
     - ricket
-    - I amm suffering from ricket
+    - I’m suffering from ricket
     - im suffering from ricket
     - my bones are weak
     - bones are weak due to vitamin d deficiency
@@ -985,7 +750,7 @@ nlu:
     - having anaemia
     - anaemia
     - my hemoglobin level is too low
-    - I m suffering from anaemia
+    - I’m suffering from anaemia
     - im suffering from anaemia
     - lower haemoglobin level
     - low haemoglobin count
@@ -1167,16 +932,6 @@ nlu:
     - benzonatate
     - brilinta
 
-- synonym: clonazepam
-  examples: |
-    - Clonazepam
-    - Clonazpam
-    - CLOnazepam
-    - clonzepam
-
-
-
-
 - synonym: paracetamol
   examples: |
     - Paracetamol
@@ -1204,6 +959,8 @@ nlu:
     - ccrocinm
     - CrOCin
     - krocin
+    - Panadol
+    - panadol
 
 - synonym: ibuprofen
   examples: |
@@ -1214,6 +971,10 @@ nlu:
     - iboprofin
     - iboprofin
     - Iboprofen
+    - Brufen
+    - dvil
+    - Motrin
+    - Nurofen
 
 - synonym: clonazepam
   examples: |
@@ -1223,6 +984,8 @@ nlu:
     - clonozepam
     - klonozepam
     - Klonazepam
+    - Klonopin 
+#   - benzodiazepine 
 
 - synonym: copper
   examples: |
@@ -1239,6 +1002,10 @@ nlu:
     - MiRtazApine
     - mirrtaZappine
     - MIRTAZAPINE
+    - Remeron 
+    - Remeron Soltab
+    - remeron
+    - remeran
 
 - synonym: chantix
   examples: |
@@ -1246,6 +1013,11 @@ nlu:
     - CHANTIX
     - chANtIX
     - cchantix
+    - Varenicline 
+    - varenicline
+    - VaRENICLine
+    - chantx
+    - varencline
 
 - synonym: ambien
   examples: |
@@ -1254,6 +1026,8 @@ nlu:
     - ambein
     - AmbIeN
     - ambbin
+    - Zolpidem
+    - zolpidym
 
 - synonym: actos
   examples: |
@@ -1261,6 +1035,9 @@ nlu:
     - ACTOS
     - Actoos
     - AcToS
+    - Pioglitazone
+    - Pioglitazone hydrochloride
+    - pioglitazone
 
 - synonym: enbrel
   examples: |
@@ -1309,7 +1086,7 @@ nlu:
     - Miconazol
     - Monistat 
     - monistat
-
+#   - Azole antifungal
 
 - synonym: levora
   examples: |
@@ -1335,126 +1112,165 @@ nlu:
     - CIPROFLOXACIN
     - cipprofloxacin
     - ciprofloxacyn
-    - 
+    - Cipro
+    - Cipro XR
+    - ProQuin XR
 
 - synonym: nuvigil
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Nuvigil
+    - NUVIGIL
+    - NuVigIL
+    - nuvigil
+    - Armodafinil
+    - armodafinil
+    - armodafinyl
 
 - synonym: movantik
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Movantik
+    - MOVANTIK
+    - movaantik
+    - Naloxegol
+    - naloxegol
+    - moVAnTIK
+    - movantick
 
 - synonym: viscodyne
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Viscodyne
+    - VISCODYNE
+    - viscodine
+    - visCOdiNE
+    - viscodyn
+    - Viscodyn
 
 - synonym: kevzara
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Kevzara
+    - KEVZARA
+    - Sarilumab
+    - sarilumab
+    - kevzra
+    - KeVZAra
     
 - synonym: klonopin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Klonopin
+    - KLONOPIN
+    - Clonazepam
+    - clonazepam
+    - CLONAZEPAM
+    - kLOnoPin
+    - clonopin
+    - Clonopin
 
 - synonym: enteragam
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Enteragam
+    - entergam
+    - enteragum
+    - ImmunoLin 
+    - immunolin
+    - Enteragam
 
 - synonym: oxybutynin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Ditropan
+    - Oxybutynin
+    - OXYBUTYNIN
+    - oXyBuTYNin
+    - ditropan
+    - dytropan
 
 - synonym: zyclara
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Zyclara
+    - ZYCLARA
+    - Zyclara
 
 - synonym: seroquel
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Seroquel
+    - SEROQUEL
+    - seRoQUEL
+    - seroquil
+    - Quetiapine
+    - QUETIAPINE
+    - seroquill
     
 - synonym: lisinopril
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Lisinopril
+    - LISINOPRIL
+    - liSiNoPRil
 
 - synonym: lofexidine
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - lofexidine
+    - Lofexidine
+    - Lucemyra 
+    - lucemyra
+    - lofexidyn
 
 - synonym: loratadine
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Loratadine
+    - loratadyn
+    - LORATADINE
+    - Claritin 
+    - claritin
 
 - synonym: lyrica
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Pregabalin
+    - Lyrica
+    - lyrica
+    - LYRICA
+    - lYrica
+    - pregabalin
 
 - synonym: melatonin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Natrol 
+    - Melatonin
+    - MELATONIN
+    - MelaToNiN
+    - natrol
+    - placebo
 
 - synonym: meloxicam
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Mobic 
+    - MELOXICAM
+    - meloxycam
+    - Vivlodex
+    - Meloxicam Comfort Pac
+    - mobic
+    - Meloxicam
 
 - synonym: metformin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Metformin
+    - METFORMIN
+    - Glucophage 
+    - glucophage
+    - glucofage
+    - Metaformin
+    - MetaFoRmYN
 
 - synonym: methadone
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Methadone
+    - METHADONE
+    - Dolophine
+    - Methadose 
+    - DOLOPHYNE
+    - dolophyne
+    - methadon
+    - Methadon
+    - Methadose 
+    - methadose
 
 - synonym: methotrexate
   examples: |
@@ -1464,6 +1280,7 @@ nlu:
     - amethopterin
     - MTX
     - Amethopterin
+    - mtx
 
 - synonym: metoprolol
   examples: |
@@ -1528,6 +1345,7 @@ nlu:
     - Onpattro
     - onpatro
     - paTiSSiRaN
+    - pattisyran
 
 - synonym: otezla
   examples: |
@@ -1539,7 +1357,7 @@ nlu:
     - apremilast
     - APReMILAST
     - apermilast
-
+#   - phosphodiesterase inhibitors
 
 - synonym: ozempic
   examples: |
@@ -1562,7 +1380,7 @@ nlu:
     - Protonix
     - protonix
     - panntaprozool
-
+#   - proton pump inhibitors (PPIs)
 
 - synonym: prednisone
   examples: |
@@ -1589,6 +1407,8 @@ nlu:
     - Ultram 
     - ultram
     - TrAmAdOl
+    - tramadul
+    - ULTRAM
 
 - synonym: trazodone
   examples: |
@@ -1622,6 +1442,7 @@ nlu:
     - alprazolam
     - xannax
     - XaNax
+#   - triazolobenzodiazepine 
 
 - synonym: amlodipine
   examples: |
@@ -1652,6 +1473,7 @@ nlu:
     - attivan
     - AtiVan
     - lorazepam
+#    - benzodiazepine 
 
 - synonym: benzonatate
   examples: |
@@ -1662,7 +1484,7 @@ nlu:
     - tesalon
     - benzonate
     - benzyl benzoate
-
+#    - antitussives
 
 - synonym: brilinta
   examples: |
