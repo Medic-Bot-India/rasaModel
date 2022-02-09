@@ -1047,41 +1047,54 @@ nlu:
     - anGIOX
     - Angiomax 
     - Bivalirudin
+    - bivalirudin
 
 - synonym: campral
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - CAMPRAL
+    - Campral
+    - camprall
+    - CaMPraL
+    - Acamprosate
+    - acamprosate
+    - ACAMPROSATE
 
-- synonym: 
+- synonym: miconazole
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Miconazole
+    - MICONAZOLE
+    - MicONaZoLE
+    - micconazol
+    - Miconazol
+    - Monistat 
+    - monistat
+#   - Azole antifungal
 
 - synonym: levora
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Levora
+    - LEVORA
+    - lEvORA
+    - levora
+    - LeVvora
 
 - synonym: amitriptyline
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Amitriptyline
+    - AMITRIPTYLINE
+    - Elavil 
+    - elavil
+    - ellavil
+    - Amitreptline
+    - amItriPTYLYN
 
 - synonym: ciprofloxacin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Ciprofloxacin
+    - CIPROFLOXACIN
+    - cipprofloxacin
+    - ciprofloxacyn
+    - 
 
 - synonym: nuvigil
   examples: |
@@ -1204,140 +1217,222 @@ nlu:
 
 - synonym: methotrexate
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Methotrexate
+    - Metotrexate
+    - METHOTREXATE
+    - amethopterin
+    - MTX
+    - Amethopterin
 
 - synonym: metoprolol
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Metoprolol
+    - METORPROLOL
+    - metroprolol
+    - MeTOpROLol
+    - metoprollol
+    - Lopressor
+    - lopressor
+    - lopresor
 
 - synonym: naloxone
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Naloxone
+    - NALOXONE
+    - nALoXONe
+    - Narcan 
+    - narcan
+    - nacran
+    - nalloxone
 
 - synonym: naltrexone
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Naltrexone
+    - NALTREXONE
+    - nalterxone
+    - NaLTRexONe
+    - ReVia 
+    - revia
+    - Vivitrol 
+    - vivitrol
 
 - synonym: naproxen
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Naproxen
+    - NAPROXEN
+    - naPRoXen
+    - Aleve 
+    - Apronax 
+    - aleve
+    - apronax
+    - naporxen
 
 - synonym: omeprazole
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Omeprazole
+    - OMEPRAZOLE
+    - Losec
+    - Prilosec 
+    - lossec
+    - prilosec
+    - PRILOSEC
+    - LOSEC
+    - omerparzole
 
 - synonym: patisiran
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Patisiran
+    - PATISIRAN
+    - pateseran
+    - Onpattro
+    - onpatro
+    - paTiSSiRaN
 
 - synonym: otezla
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Otezla
+    - OTEZLA 
+    - otzela
+    - oteZzla
+    - Apremilast
+    - apremilast
+    - APReMILAST
+    - apermilast
+#   - phosphodiesterase inhibitors
 
 - synonym: ozempic
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Ozempic
+    - OZEMPIC
+    - ozempyc
+    - Semaglutide
+    - semaglutide
+    - SeMaGlUTiDe
+    - ozempec
+    - Rybelsus 
+    - rybelsus 
 
 - synonym: pantoprazole
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Pantoprazole
+    - pantaprazol
+    - PANTOPRAZOLE 
+    - PntopRZle
+    - Protonix
+    - protonix
+    - panntaprozool
+#   - proton pump inhibitors (PPIs)
 
 - synonym: prednisone
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - PREDNISONE
+    - Prednisone
+    - PreDEnissOnE
+    - Rayos 
+    - Prednisone Intensol
+    - Deltasone 
+    - deltasone
+    - Meticorten
+    - meticorten
+    - Orasone
+    - Pediapred
+    - FloPred
+    - Orapred
+    - Orapred ODT
+    - Millipred
 
 - synonym: tramadol
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Tramadol
+    - TRAMADOL
+    - Ultram 
+    - ultram
+    - TrAmAdOl
 
 - synonym: trazodone
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Trazodone
+    - TRAZODONE
+    - TrazAdOnE
+    - Desyrel
+    - Desyrel Dividose
+    - Oleptro
+    - oleptro
+    - Trazodone D.
+    - Trazodone D
 
 - synonym: wellbutrin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Wellbutrin
+    - welbrutin
+    - welbutrin
+    - WELLBUTRIN
+    - WeLlBuTrin
+    - Bupropion
+    - bipropion
+    - Zyban
+    - zyban
 
 - synonym: xanax
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Xanax
+    - XANAX
+    - Alprazolam
+    - alprazolam
+    - xannax
+    - XaNax
+#   - triazolobenzodiazepine 
 
 - synonym: amlodipine
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Amlodipine
+    - Amlodipine
+    - Norvasc 
+    - norvasc
+    - AMLODIPINE
+    - amladipine
+    - amlodipyn
+    - amlodipin
+    - Katerzia
+    - katerzia
 
 - synonym: amoxicillin
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Amoxicillin
+    - AMOXICILLIN
+    - amoxicilin
+    - AMoxICiLLIN
+    - amoxicilen
 
 - synonym: ativan
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Lorazepam
+    - Ativan
+    - ATIVAN
+    - attivan
+    - AtiVan
+    - lorazepam
+#    - benzodiazepine 
 
 - synonym: benzonatate
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol
+    - Benzonatate
+    - BENZONATATE
+    - Tessalon 
+    - tessalon
+    - tesalon
+    - benzonate
+    - benzyl benzoate
+#    - antitussives
 
 - synonym: brilinta
   examples: |
-    - Paracetamol
-    - Paracetamol
-    - PARAcetmol
-    - pppracetmol   
+    - Ticagrelor
+    - ticagrelor
+    - Brilinta
+    - BRILINTA
+    - BriLLinTa
+    - brillinta   
+#    - antiplatelet medicine
+
+#The comments in drug synonyms indicate the class of the drug 
