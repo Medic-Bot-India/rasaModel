@@ -50,6 +50,56 @@ nlu:
     - no way
     - not really
 
+- intent: want_to_ask_question
+  examples: |
+    - i want to ask a question
+    - i want to know information on deugs
+    - i want your help
+    - help me bro
+    - i want to know doasage of drugs
+    - i want information of some drugs
+    - i want to know side effects of drugs
+    - i want your help
+    - help me please
+    - tell me something
+    - yes i have a question
+    - yes i want to ask a question
+    - I want to ask a question
+    - Yes, I have a question
+    - I need your help
+    - help
+    - need to ask question
+    - a question
+    - want to consult with please help me urgently
+    - question
+    - want to ask
+    - ask
+    - or want Quick Assistance
+    - I want you to answer me
+    - answer
+    - answer my question
+    - answer me
+    - give me an answer
+    - answer the question
+    - can you answer my question
+    - tell me the answer
+    - answer it
+    - give me the answer
+    - I want you to answer my question
+    - just answer the question
+    - can you answer me
+    - answers
+    - can you answer a question for me
+    - can you answer
+    - answering questions
+    - I want the answer now
+    - just answer my question
+    - i want some drug information
+    - i want to know about a certain drug usage
+    - precautions of some drug
+    - side effect of some drug
+
+
 # - intent: mood_great
 #   examples: |
 #     - perfect
@@ -853,59 +903,6 @@ nlu:
     - chest squeezing
     - left arm in pressure
 
-- intent: problem_want_to_ask_question
-  examples: |
-    - i want to ask a question
-    - i want to know information on deugs
-    - i want your help
-    - help me bro
-    - i want to know doasage of drugs
-    - i want information of some drugs
-    - i want to know side effects of drugs
-    - i want your help
-    - help me please
-    - tell me something
-    - yes i have a question
-    - yes i want to ask a question
-    - I want to ask a question
-    - Yes, I have a question
-    - I need your help
-    - help
-    - need to ask question
-    - a question
-    - want to consult with please help me urgently
-    - question
-    - want to ask
-    - ask
-    - or want Quick Assistance
-    - I want you to answer me
-    - answer
-    - answer my question
-    - answer me
-    - give me an answer
-    - answer the question
-    - can you answer my question
-    - tell me the answer
-    - answer it
-    - give me the answer
-    - I want you to answer my question
-    - just answer the question
-    - can you answer me
-    - answers
-    - can you answer a question for me
-    - can you answer
-    - answering questions
-    - I want the answer now
-    - just answer my question
-    - i want some drug information
-    - i want to know about a certain drug usage
-    - precautions of some drug
-    - side effect of some drug
-
-
-
-
-
 
 
 - intent: problem_drug-info
@@ -1041,7 +1038,6 @@ nlu:
     - klonozepam
     - Klonazepam
     - Klonopin 
-#   - benzodiazepine 
 
 - synonym: copper
   examples: |
@@ -1142,7 +1138,7 @@ nlu:
     - Miconazol
     - Monistat 
     - monistat
-#   - Azole antifungal
+
 
 - synonym: levora
   examples: |

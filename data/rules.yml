@@ -3,6 +3,7 @@ version: "2.0"
 rules:
 
 - rule: ask to help when user says hello
+  conversation_start: True
   steps:
   - intent: greet
   - action: utter_greet
@@ -41,8 +42,22 @@ rules:
 
 - rule: want to ask question
   steps:
-  - intent: problem_want_to_ask_question
+  - intent: want_to_ask_question
   - action: utter_ask_question
+
+- rule: user wants help
+  steps:
+  - action: utter_anything-else
+  - intent: affirm
+  - action: utter_ask_question
+
+- rule: user doesn't want help
+  steps:
+  - action: utter_anything-else
+  - or:
+    - intent: deny
+    - intent: goodbye
+  - action: utter_goodbye
 
 
 
