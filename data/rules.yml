@@ -25,9 +25,24 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: show images if headache
+  steps:
+  - intent: problem_headache
+  - action: utter_headache_image
+  - action: utter_headache_question
+
+
 - rule: reply with drug information
   steps:
   - intent: problem_drug-info
   - action: utter_drug_info
   - action: utter_drug_usage
   - action: utter_drug_side_effects
+
+- rule: want to ask question
+  steps:
+  - intent: problem_want_to_ask_question
+  - action: utter_ask_question
+
+
+

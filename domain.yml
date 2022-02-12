@@ -13,6 +13,7 @@ intents:
   - age-below-18
   - age-above-18
   - problem_headache
+  - problem_headache_tension
   - problem_cough
   - problem_nasal-blockage
   - problem_common-cold
@@ -72,6 +73,9 @@ responses:
   utter_iamabot:
   - text: "I am a healthcare assistant chatbot, powered by RASA"
 
+  utter_ask_question:
+    - text: Ok Sure, you may continue to ask me. How can I help you.
+
   utter_anything-else:
   - text: "Is there anything else I can help you with?"
 
@@ -103,6 +107,16 @@ responses:
   utter_visit-doctor:
   - text: "Please visit a hospital"
 
+  utter_headache_image:
+    - text: ''
+      image: "imgs/bot/headache.png"
+  utter_headache_question:
+  - text: Where do you have head pain.
+    buttons:
+      - title: "1"
+        payload: /problem_headache_tension
+      - title: "2"
+        payload: /problem_migraine
   utter_headache-a:
   - text: take a 100mg dosage of Crocin Pain Relief for headache
   utter_headache-b:
@@ -162,9 +176,9 @@ responses:
   utter_migraine-a:
   - text: You have migraine. You should take 25mg dosage of sumatriptan when you get pain.
   utter_migraine-b:
-  - text: You have migrane. You should take 50mg dosage of sumatriptan when you get pain.
+  - text: You have migraine. You should take 50mg dosage of sumatriptan when you get pain.
   utter_migraine-advice:
-  - text: try a cold pack, get some caffeine, practice relaxation.
+  - text: try a cold pack, get some caffeine and practice relaxation.
   utter_conjunctivits-a:
   - text : You have conjunctivitis. Take gatifloxacin (Zymaxid) 2 drops twice a day .
   utter_conjunctivits-b:

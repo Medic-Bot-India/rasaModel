@@ -892,15 +892,14 @@ nlu:
   examples: |
     - i have migraine
     - i am sensitive to light, sound, or smell
-    - i am very thirsty
+    - extrmely painful headache
     - i have mood swings
-    - i feel bloated
     - i am having hallucinations
     - i have tunnel vision
     - i am having a very strong headache
     - my ears are ringing
-    - i am not able to see at all
-    - i am feeling tired
+    - i am not able to see at all due to pain in side of head
+    - i am extreme pain seizures in head
     - i am nauseated
     - i ahve frequent migrain attacks
     - i have strong pain in back part of head
@@ -1087,10 +1086,61 @@ nlu:
     - chest tightness
     - chest pain
     - chest squeezing
-    - arms pressure
-    - arms tightness
-    - arms aching
-    - arms aching sensation
+    - left arm in pressure
+
+- intent: problem_want_to_ask_question
+  examples: |
+    - i want to ask a question
+    - i want to know information on deugs
+    - i want your help
+    - help me bro
+    - i want to know doasage of drugs
+    - i want information of some drugs
+    - i want to know side effects of drugs
+    - i want your help
+    - help me please
+    - tell me something
+    - yes i have a question
+    - yes i want to ask a question
+    - I want to ask a question
+    - Yes, I have a question
+    - I need your help
+    - help
+    - need to ask question
+    - a question
+    - want to consult with please help me urgently
+    - question
+    - want to ask
+    - ask
+    - or want Quick Assistance
+    - I want you to answer me
+    - answer
+    - answer my question
+    - answer me
+    - give me an answer
+    - answer the question
+    - can you answer my question
+    - tell me the answer
+    - answer it
+    - give me the answer
+    - I want you to answer my question
+    - just answer the question
+    - can you answer me
+    - answers
+    - can you answer a question for me
+    - can you answer
+    - answering questions
+    - I want the answer now
+    - just answer my question
+    - i want some drug information
+    - i want to know about a certain drug usage
+    - precautions of some drug
+    - side effect of some drug
+
+
+
+
+
 
 
 - intent: problem_drug-info
@@ -1109,6 +1159,10 @@ nlu:
     - why is [miconazole](drug_name) used
     - whats the dosage of [mirtazapine](drug_name)
     - tell me details about [ambien](drug_name)
+    - what are side effects of [ambien](drug_name)
+    - what is correct usage of [crocin](drug_name)
+    - give me information about [paracetamol](drug_name)
+
 
 - lookup: drug_name
   examples: |
@@ -1166,14 +1220,6 @@ nlu:
     - ativan
     - benzonatate
     - brilinta
-
-- synonym: clonazepam
-  examples: |
-    - Clonazepam
-    - Clonazpam
-    - CLOnazepam
-    - clonzepam
-
 
 
 
@@ -1672,6 +1718,6 @@ nlu:
     - BRILINTA
     - BriLLinTa
     - brillinta   
-#    - antiplatelet medicine
+
 
 #The comments in drug synonyms indicate the class of the drug 
