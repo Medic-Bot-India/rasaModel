@@ -7,6 +7,7 @@ rules:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_select_one
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
@@ -33,17 +34,29 @@ rules:
   - action: utter_headache_question
 
 
-- rule: reply with drug information
+- rule: reply with drug information when slot 
   steps:
   - intent: problem_drug-info
   - action: utter_drug_info
   - action: utter_drug_usage
   - action: utter_drug_side_effects
+  - action: utter_anything-else
+
+- rule: user want info on drug
+  steps:
+  - intent: info_on_drugs
+  - action: utter_ask_about_drug
+
+- rule: user want symptom checker
+  steps:
+  - intent: describe_symptoms
+  - action: utter_check_symptoms
 
 - rule: want to ask question
   steps:
   - intent: want_to_ask_question
   - action: utter_ask_question
+  - action: utter_select_one
 
 - rule: user wants help
   steps:

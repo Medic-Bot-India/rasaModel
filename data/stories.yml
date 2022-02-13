@@ -5,8 +5,7 @@ stories:
 
 - story: headache 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
@@ -23,8 +22,7 @@ stories:
 
 - story: headache 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
@@ -40,8 +38,7 @@ stories:
 
 - story: headache 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
@@ -57,8 +54,7 @@ stories:
 
 - story: headache 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
@@ -75,12 +71,11 @@ stories:
 
 - story: headache migrain 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
-  - intent: problem_headache_migraine
+  - intent: problem_migraine
   - action: utter_ask-duration
   - intent: small-duration
   - action: utter_ask-age
@@ -93,12 +88,11 @@ stories:
 
 - story: headache migraine 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
-  - intent: problem_headache_migraine
+  - intent: problem_migraine
   - action: utter_ask-duration
   - intent: long-duration
   - action: utter_ask-age
@@ -110,12 +104,11 @@ stories:
 
 - story: headache migraine 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
-  - intent: problem_headache_migraine
+  - intent: problem_migraine
   - action: utter_ask-duration
   - intent: long-duration
   - action: utter_ask-age
@@ -127,8 +120,7 @@ stories:
 
 - story: headache migraine 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_headache
   - action: utter_headache_image
   - action: utter_headache_question
@@ -145,8 +137,7 @@ stories:
 
 - story: cough 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_cough
   - action: utter_ask-duration
   - intent: small-duration
@@ -160,8 +151,7 @@ stories:
 
 - story: cough 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_cough
   - action: utter_ask-duration
   - intent: long-duration
@@ -174,8 +164,7 @@ stories:
 
 - story: cough 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_cough
   - action: utter_ask-duration
   - intent: long-duration
@@ -188,8 +177,7 @@ stories:
 
 - story: cough 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_cough
   - action: utter_ask-duration
   - intent: small-duration
@@ -203,8 +191,7 @@ stories:
 
 - story: nasal-blockage 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_nasal-blockage
   - action: utter_ask-duration
   - intent: small-duration
@@ -218,8 +205,7 @@ stories:
 
 - story: nasal-blockage 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_nasal-blockage
   - action: utter_ask-duration
   - intent: long-duration
@@ -232,8 +218,7 @@ stories:
 
 - story: nasal-blockage 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_nasal-blockage
   - action: utter_ask-duration
   - intent: long-duration
@@ -246,8 +231,7 @@ stories:
 
 - story: nasal-blockage 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_nasal-blockage
   - action: utter_ask-duration
   - intent: small-duration
@@ -261,8 +245,7 @@ stories:
 
 - story: allergy 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_allergy
   - action: utter_ask-duration
   - intent: small-duration
@@ -276,8 +259,7 @@ stories:
 
 - story: allergy 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_allergy
   - action: utter_ask-duration
   - intent: long-duration
@@ -290,8 +272,7 @@ stories:
 
 - story: allergy 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_allergy
   - action: utter_ask-duration
   - intent: long-duration
@@ -304,8 +285,7 @@ stories:
 
 - story: allergy 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_allergy
   - action: utter_ask-duration
   - intent: small-duration
@@ -320,8 +300,7 @@ stories:
 
 - story: anaemia 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_anaemia
   - action: utter_ask-duration
   - intent: small-duration
@@ -335,8 +314,7 @@ stories:
 
 - story: anaemia 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_anaemia
   - action: utter_ask-duration
   - intent: long-duration
@@ -349,8 +327,7 @@ stories:
 
 - story: anaemia 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_anaemia
   - action: utter_ask-duration
   - intent: long-duration
@@ -363,8 +340,7 @@ stories:
 
 - story: anaemia 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_anaemia
   - action: utter_ask-duration
   - intent: small-duration
@@ -379,8 +355,7 @@ stories:
 
 - story: arthritis 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_arthritis
   - action: utter_ask-duration
   - intent: small-duration
@@ -394,8 +369,7 @@ stories:
 
 - story: arthritis 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_arthritis
   - action: utter_ask-duration
   - intent: long-duration
@@ -408,8 +382,7 @@ stories:
 
 - story: arthritis 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_arthritis
   - action: utter_ask-duration
   - intent: long-duration
@@ -422,8 +395,7 @@ stories:
 
 - story: arthritis 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_arthritis
   - action: utter_ask-duration
   - intent: small-duration
@@ -437,8 +409,7 @@ stories:
 
 - story: bronchial asthma 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_bronchial-asthma
   - action: utter_ask-duration
   - intent: small-duration
@@ -452,8 +423,7 @@ stories:
 
 - story: bronchial asthma 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_bronchial-asthma
   - action: utter_ask-duration
   - intent: long-duration
@@ -466,8 +436,7 @@ stories:
 
 - story: bronchial asthma 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_bronchial-asthma
   - action: utter_ask-duration
   - intent: long-duration
@@ -480,8 +449,7 @@ stories:
 
 - story: bronchial asthma 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_bronchial-asthma
   - action: utter_ask-duration
   - intent: small-duration
@@ -496,8 +464,7 @@ stories:
 
 - story: chickenpox 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_chickenpox
   - action: utter_ask-duration
   - intent: small-duration
@@ -511,8 +478,7 @@ stories:
 
 - story: chickenpox 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_chickenpox
   - action: utter_ask-duration
   - intent: long-duration
@@ -525,8 +491,7 @@ stories:
 
 - story: chickenpox 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_chickenpox
   - action: utter_ask-duration
   - intent: long-duration
@@ -539,8 +504,7 @@ stories:
 
 - story: chickenpox 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_chickenpox
   - action: utter_ask-duration
   - intent: small-duration
@@ -555,8 +519,7 @@ stories:
 
 - story: common cold 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_common-cold
   - action: utter_ask-duration
   - intent: small-duration
@@ -570,8 +533,7 @@ stories:
 
 - story: common cold 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_common-cold
   - action: utter_ask-duration
   - intent: long-duration
@@ -584,8 +546,7 @@ stories:
 
 - story: common cold 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_common-cold
   - action: utter_ask-duration
   - intent: long-duration
@@ -598,8 +559,7 @@ stories:
 
 - story: common cold 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_common-cold
   - action: utter_ask-duration
   - intent: small-duration
@@ -614,8 +574,7 @@ stories:
 
 - story: conjunctivits 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_conjunctivits
   - action: utter_ask-duration
   - intent: small-duration
@@ -629,8 +588,7 @@ stories:
 
 - story: conjunctivits 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_conjunctivits
   - action: utter_ask-duration
   - intent: long-duration
@@ -643,8 +601,7 @@ stories:
 
 - story: conjunctivits 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_conjunctivits
   - action: utter_ask-duration
   - intent: long-duration
@@ -657,8 +614,7 @@ stories:
 
 - story: conjunctivits 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_conjunctivits
   - action: utter_ask-duration
   - intent: small-duration
@@ -673,8 +629,7 @@ stories:
 
 - story: depression 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_depression
   - action: utter_ask-duration
   - intent: small-duration
@@ -688,8 +643,7 @@ stories:
 
 - story: depression 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_depression
   - action: utter_ask-duration
   - intent: long-duration
@@ -702,8 +656,7 @@ stories:
 
 - story: depression 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_depression
   - action: utter_ask-duration
   - intent: long-duration
@@ -716,8 +669,7 @@ stories:
 
 - story: depression 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_depression
   - action: utter_ask-duration
   - intent: small-duration
@@ -731,8 +683,7 @@ stories:
 
 - story: diabetes 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_diabetes
   - action: utter_ask-duration
   - intent: small-duration
@@ -746,8 +697,7 @@ stories:
 
 - story: diabetes 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_diabetes
   - action: utter_ask-duration
   - intent: long-duration
@@ -760,8 +710,7 @@ stories:
 
 - story: diabetes 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_diabetes
   - action: utter_ask-duration
   - intent: long-duration
@@ -774,8 +723,7 @@ stories:
 
 - story: diabetes 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_diabetes
   - action: utter_ask-duration
   - intent: small-duration
@@ -790,8 +738,7 @@ stories:
 
 - story: ear pain 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ear-pain
   - action: utter_ask-duration
   - intent: small-duration
@@ -805,8 +752,7 @@ stories:
 
 - story: ear pain 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ear-pain
   - action: utter_ask-duration
   - intent: long-duration
@@ -819,8 +765,7 @@ stories:
 
 - story: ear pain 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ear-pain
   - action: utter_ask-duration
   - intent: long-duration
@@ -833,8 +778,7 @@ stories:
 
 - story: ear pain 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ear-pain
   - action: utter_ask-duration
   - intent: small-duration
@@ -848,8 +792,7 @@ stories:
 
 - story: eye problem 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_eye-problem
   - action: utter_ask-duration
   - intent: small-duration
@@ -863,8 +806,7 @@ stories:
 
 - story: eye problem 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_eye-problem
   - action: utter_ask-duration
   - intent: long-duration
@@ -877,8 +819,7 @@ stories:
 
 - story: eye problem 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_eye-problem
   - action: utter_ask-duration
   - intent: long-duration
@@ -891,8 +832,7 @@ stories:
 
 - story: eye problem 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_eye-problem
   - action: utter_ask-duration
   - intent: small-duration
@@ -906,8 +846,7 @@ stories:
 
 - story: fungal infection 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_fungal-infection
   - action: utter_ask-duration
   - intent: small-duration
@@ -921,8 +860,7 @@ stories:
 
 - story: fungal infection 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_fungal-infection
   - action: utter_ask-duration
   - intent: long-duration
@@ -935,8 +873,7 @@ stories:
 
 - story: fungal infection 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_fungal-infection
   - action: utter_ask-duration
   - intent: long-duration
@@ -949,8 +886,7 @@ stories:
 
 - story: fungal infection 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_fungal-infection
   - action: utter_ask-duration
   - intent: small-duration
@@ -964,8 +900,7 @@ stories:
 
 - story: gerd 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_gerd
   - action: utter_ask-duration
   - intent: small-duration
@@ -979,8 +914,7 @@ stories:
 
 - story: gerd 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_gerd
   - action: utter_ask-duration
   - intent: long-duration
@@ -993,8 +927,7 @@ stories:
 
 - story: gerd 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_gerd
   - action: utter_ask-duration
   - intent: long-duration
@@ -1007,8 +940,7 @@ stories:
 
 - story: gerd 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_gerd
   - action: utter_ask-duration
   - intent: small-duration
@@ -1023,8 +955,7 @@ stories:
 
 - story: high blood pressure 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_high-blood-pressure
   - action: utter_ask-duration
   - intent: small-duration
@@ -1038,8 +969,7 @@ stories:
 
 - story: high blood pressure 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_high-blood-pressure
   - action: utter_ask-duration
   - intent: long-duration
@@ -1052,8 +982,7 @@ stories:
 
 - story: high blood pressure 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_high-blood-pressure
   - action: utter_ask-duration
   - intent: long-duration
@@ -1066,8 +995,7 @@ stories:
 
 - story: high blood pressure 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_high-blood-pressure
   - action: utter_ask-duration
   - intent: small-duration
@@ -1082,8 +1010,7 @@ stories:
 
 - story: insomnia 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_insomnia
   - action: utter_ask-duration
   - intent: small-duration
@@ -1097,8 +1024,7 @@ stories:
 
 - story: insomnia 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_insomnia
   - action: utter_ask-duration
   - intent: long-duration
@@ -1111,8 +1037,7 @@ stories:
 
 - story: insomnia 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_insomnia
   - action: utter_ask-duration
   - intent: long-duration
@@ -1125,8 +1050,7 @@ stories:
 
 - story: insomnia 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_insomnia
   - action: utter_ask-duration
   - intent: small-duration
@@ -1141,8 +1065,7 @@ stories:
 
 - story: low blood pressure 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_low-blood-pressure
   - action: utter_ask-duration
   - intent: small-duration
@@ -1156,8 +1079,7 @@ stories:
 
 - story: low blood pressure 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_low-blood-pressure
   - action: utter_ask-duration
   - intent: long-duration
@@ -1170,8 +1092,7 @@ stories:
 
 - story: low blood pressure 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_low-blood-pressure
   - action: utter_ask-duration
   - intent: long-duration
@@ -1184,8 +1105,7 @@ stories:
 
 - story: low blood pressure 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_low-blood-pressure
   - action: utter_ask-duration
   - intent: small-duration
@@ -1200,8 +1120,7 @@ stories:
 
 - story: migraine 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_migraine
   - action: utter_ask-duration
   - intent: small-duration
@@ -1215,8 +1134,7 @@ stories:
 
 - story: migraine 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_migraine
   - action: utter_ask-duration
   - intent: long-duration
@@ -1229,8 +1147,7 @@ stories:
 
 - story: migraine 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_migraine
   - action: utter_ask-duration
   - intent: long-duration
@@ -1243,8 +1160,7 @@ stories:
 
 - story: migraine 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_migraine
   - action: utter_ask-duration
   - intent: small-duration
@@ -1259,8 +1175,7 @@ stories:
 
 - story: mild heart disease 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_mild-heart-disease
   - action: utter_ask-duration
   - intent: small-duration
@@ -1274,8 +1189,7 @@ stories:
 
 - story: mild heart disease 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_mild-heart-disease
   - action: utter_ask-duration
   - intent: long-duration
@@ -1288,8 +1202,7 @@ stories:
 
 - story: mild heart disease 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_mild-heart-disease
   - action: utter_ask-duration
   - intent: long-duration
@@ -1302,8 +1215,7 @@ stories:
 
 - story: mild heart disease 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_mild-heart-disease
   - action: utter_ask-duration
   - intent: small-duration
@@ -1317,8 +1229,7 @@ stories:
 
 - story: night blindness 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_night-blindness
   - action: utter_ask-duration
   - intent: small-duration
@@ -1332,8 +1243,6 @@ stories:
 
 - story: night blindness 2
   steps:
-  - intent: greet
-  - action: utter_greet
   - intent: problem_night-blindness
   - action: utter_ask-duration
   - intent: long-duration
@@ -1346,8 +1255,7 @@ stories:
 
 - story: night blindness 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_night-blindness
   - action: utter_ask-duration
   - intent: long-duration
@@ -1360,8 +1268,7 @@ stories:
 
 - story: night blindness 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_night-blindness
   - action: utter_ask-duration
   - intent: small-duration
@@ -1375,8 +1282,7 @@ stories:
 
 - story: obesity 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_obesity
   - action: utter_ask-duration
   - intent: small-duration
@@ -1390,8 +1296,7 @@ stories:
 
 - story: obesity 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_obesity
   - action: utter_ask-duration
   - intent: long-duration
@@ -1404,8 +1309,7 @@ stories:
 
 - story: obesity 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_obesity
   - action: utter_ask-duration
   - intent: long-duration
@@ -1418,8 +1322,7 @@ stories:
 
 - story: obesity 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_obesity
   - action: utter_ask-duration
   - intent: small-duration
@@ -1434,8 +1337,7 @@ stories:
 
 - story: period cramps 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_period-cramps
   - action: utter_ask-duration
   - intent: small-duration
@@ -1449,8 +1351,7 @@ stories:
 
 - story: period cramps 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_period-cramps
   - action: utter_ask-duration
   - intent: long-duration
@@ -1463,8 +1364,7 @@ stories:
 
 - story: period cramps 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_period-cramps
   - action: utter_ask-duration
   - intent: long-duration
@@ -1477,8 +1377,7 @@ stories:
 
 - story: period cramps 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_period-cramps
   - action: utter_ask-duration
   - intent: small-duration
@@ -1492,8 +1391,7 @@ stories:
 
 - story: pneumonia 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_pneumonia
   - action: utter_ask-duration
   - intent: small-duration
@@ -1507,8 +1405,7 @@ stories:
 
 - story: pneumonia 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_pneumonia
   - action: utter_ask-duration
   - intent: long-duration
@@ -1521,8 +1418,7 @@ stories:
 
 - story: pneumonia 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_pneumonia
   - action: utter_ask-duration
   - intent: long-duration
@@ -1535,8 +1431,7 @@ stories:
 
 - story: pneumonia 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_pneumonia
   - action: utter_ask-duration
   - intent: small-duration
@@ -1550,8 +1445,7 @@ stories:
 
 - story: psoriasis 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psoriasis
   - action: utter_ask-duration
   - intent: small-duration
@@ -1565,8 +1459,7 @@ stories:
 
 - story: psoriasis 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psoriasis
   - action: utter_ask-duration
   - intent: long-duration
@@ -1579,8 +1472,7 @@ stories:
 
 - story: psoriasis 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psoriasis
   - action: utter_ask-duration
   - intent: long-duration
@@ -1593,8 +1485,7 @@ stories:
 
 - story: psoriasis 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psoriasis
   - action: utter_ask-duration
   - intent: small-duration
@@ -1608,8 +1499,7 @@ stories:
 
 - story: psychosis 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psychosis
   - action: utter_ask-duration
   - intent: small-duration
@@ -1623,8 +1513,7 @@ stories:
 
 - story: psychosis 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psychosis
   - action: utter_ask-duration
   - intent: long-duration
@@ -1637,8 +1526,7 @@ stories:
 
 - story: psychosis 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psychosis
   - action: utter_ask-duration
   - intent: long-duration
@@ -1651,8 +1539,7 @@ stories:
 
 - story: psychosis 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_psychosis
   - action: utter_ask-duration
   - intent: small-duration
@@ -1666,8 +1553,7 @@ stories:
 
 - story: ring worm 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ringworm
   - action: utter_ask-duration
   - intent: small-duration
@@ -1681,8 +1567,7 @@ stories:
 
 - story: ring worm 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ringworm
   - action: utter_ask-duration
   - intent: long-duration
@@ -1695,8 +1580,7 @@ stories:
 
 - story: ring worm 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ringworm
   - action: utter_ask-duration
   - intent: long-duration
@@ -1709,8 +1593,7 @@ stories:
 
 - story: ring worm 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_ringworm
   - action: utter_ask-duration
   - intent: small-duration
@@ -1724,8 +1607,7 @@ stories:
 
 - story: tooth ache 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_toothache
   - action: utter_ask-duration
   - intent: small-duration
@@ -1739,8 +1621,7 @@ stories:
 
 - story: tooth ache 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_toothache
   - action: utter_ask-duration
   - intent: long-duration
@@ -1753,8 +1634,7 @@ stories:
 
 - story: tooth ache 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_toothache
   - action: utter_ask-duration
   - intent: long-duration
@@ -1767,8 +1647,7 @@ stories:
 
 - story: tooth ache 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_toothache
   - action: utter_ask-duration
   - intent: small-duration
@@ -1782,8 +1661,7 @@ stories:
 
 - story: typhoid 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_typhoid
   - action: utter_ask-duration
   - intent: small-duration
@@ -1797,8 +1675,7 @@ stories:
 
 - story: typhoid 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_typhoid
   - action: utter_ask-duration
   - intent: long-duration
@@ -1811,8 +1688,7 @@ stories:
 
 - story: typhoid 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_typhoid
   - action: utter_ask-duration
   - intent: long-duration
@@ -1825,8 +1701,7 @@ stories:
 
 - story: typhoid 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_typhoid
   - action: utter_ask-duration
   - intent: small-duration
@@ -1840,8 +1715,7 @@ stories:
 
 - story: vit d deficiency 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_vit-d-deficiency
   - action: utter_ask-duration
   - intent: small-duration
@@ -1855,8 +1729,7 @@ stories:
 
 - story: vit d deficiency 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_vit-d-deficiency
   - action: utter_ask-duration
   - intent: long-duration
@@ -1869,8 +1742,7 @@ stories:
 
 - story: vit d deficiency 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_vit-d-deficiency
   - action: utter_ask-duration
   - intent: long-duration
@@ -1883,8 +1755,7 @@ stories:
 
 - story: vit d deficiency 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_vit-d-deficiency
   - action: utter_ask-duration
   - intent: small-duration
@@ -1898,8 +1769,7 @@ stories:
 
 - story: weakness 1
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_weakness
   - action: utter_ask-duration
   - intent: small-duration
@@ -1913,8 +1783,7 @@ stories:
 
 - story: weakness 2
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_weakness
   - action: utter_ask-duration
   - intent: long-duration
@@ -1927,8 +1796,7 @@ stories:
 
 - story: weakness 3
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_weakness
   - action: utter_ask-duration
   - intent: long-duration
@@ -1941,8 +1809,7 @@ stories:
 
 - story: weakness 4
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_weakness
   - action: utter_ask-duration
   - intent: small-duration
@@ -1951,16 +1818,42 @@ stories:
   - action: utter_weakness-b
   - action: utter_weakness-advice
 
-- story: ibuprofen
+- story: drug name with slots
   steps:
-  - intent: greet
-  - action: utter_greet
+
   - intent: problem_drug-info
   - slot_was_set:
     - drug_name: ibuprofen
   - action: utter_drug_info
   - action: utter_drug_usage
   - action: utter_drug_side_effects
+  - slot_was_set:
+    - drug_name: null
+  - action: utter_anything-else
+
+- story: drug info
+  steps:
+  - intent: info_on_drugs
+  - action: utter_ask_about_drug
+  - intent: problem_drug-info
+  - slot_was_set:
+    - drug_name: ibuprofen
+  - action: utter_drug_info
+  - action: utter_drug_usage
+  - action: utter_drug_side_effects
+  - slot_was_set:
+    - drug_name: null
+  - action: utter_anything-else
+
+
+# - story: drug name with no slots
+#   steps:
+
+#   - intent: problem_drug-info
+#   - slot_was_set:
+#     - drug_name: null
+#   - action: utter_drug_info
+#   - action: utter_anything-else
 
 # - story: paracetamol
 #   steps:

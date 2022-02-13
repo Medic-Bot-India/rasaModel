@@ -13,6 +13,9 @@ intents:
   - age-below-18
   - age-above-18
   - want_to_ask_question
+  - describe_symptoms
+  - info_on_drugs
+  - out_of_scope
   - problem_headache
   - problem_headache_tension
   - problem_cough
@@ -59,8 +62,16 @@ slots:
 
 responses:
   utter_greet:
-  - text: "Hii! I am medicbot, your healthcare assistant. How can I help you?"
+  - text: "Hii! I am Medicbot, your healthcare assistant"
   - text: "Hi and Welcome! Medicbot AI Assistant is ready to help you here"
+
+  utter_select_one:
+    - text: "Please select one of the following to continue"
+      buttons:
+        - title: "describe symptoms"
+          payload: /describe_symptoms
+        - title: "Get information on drugs"
+          payload: /info_on_drugs
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -79,7 +90,13 @@ responses:
   - text: "I am a healthcare assistant chatbot, powered by RASA"
 
   utter_ask_question:
-    - text: Ok Sure, you may continue to ask me. How can I help you.
+  - text: Ok Sure, you may continue to ask me
+
+  utter_check_symptoms:
+  - text: "Please describe your symptoms"
+
+  utter_ask_about_drug:
+  - text: "I can provide information, dosage and side effects of a drug. Please provide name of the drug"
 
   utter_anything-else:
   - text: "Is there anything else I can help you with?"
@@ -326,7 +343,8 @@ responses:
   - text: Please get sunlight for at least half an hour day to get proper vitamin D
 
   utter_drug_info:
-    - text: "hello"
+    - text: "I currently do not have information about {drug_name}"
+    - text: "I currently do not have information about this drug"
     - condition:
         - type: slot
           name: drug_name
@@ -587,6 +605,21 @@ responses:
           name: drug_name
           value: brilinta
       text: "brilinta is medication used for the prevention of stroke, heart attack and other events in people with acute coronary syndrome"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: paracetamol
+      text: "paracetamol is a common painkiller used to treat aches and pain. It can also be used to reduce a high temperature"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: crocin
+      text: "crocin provides symptomatic relief from mild to moderate pain e.g from headache, migraine, toothache and musculoskeletal pain"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ibuprofen
+      text: "ibuprofen is used to relieve pain from various conditions such as headache, dental pain, menstrual cramps, muscle aches, or arthritis"      
 
   utter_drug_usage:
     - condition:
@@ -849,6 +882,21 @@ responses:
           name: drug_name
           value: brilinta
       text: "Dosage amount should be 90 mg twice daily for adults and 2 doses, 0.125-2.25 mg/kg daily for adolescent"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: paracetamol
+      text: "Dosage amount should be one or two 500mg tablets up to 4 times in 24 hours for adults and 10-15 mg per kilogram of weight for adolescent"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: crocin
+      text: "Dosage amount should be 10-15 mg per kilogram of weight for adults and 10-15 mg per kilogram of weight for adolescent"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ibuprofen
+      text: "Dosage amount should be 200 to 400 mg orally every 4 hours as needed for adults and 100mg/5ml for adolescent"  
 
   utter_drug_side_effects:
     - condition:
@@ -1111,6 +1159,21 @@ responses:
           name: drug_name
           value: brilinta
       text: "side effects are bruising,bleeding more easily,nosebleeds,headache,dizziness,cough,nausea,and chest pain."
+    - condition:
+        - type: slot
+          name: drug_name
+          value: paracetamol
+      text: "side effects are low fever with nausea, stomach pain, and loss of appetite, dark urine, clay-colored stools"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: crocin
+      text: "side effects are liver damage, skin rashes, increased heartbeat, low platelets, and low white blood cells"
+    - condition:
+        - type: slot
+          name: drug_name
+          value: ibuprofen
+      text: "side effects are stomach pain, heartburn, nausea, vomiting, gas, constipation, diarrhea"
 
 
 session_config:
