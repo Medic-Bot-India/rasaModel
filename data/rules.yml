@@ -3,7 +3,6 @@ version: "2.0"
 rules:
 
 - rule: ask to help when user says hello
-  conversation_start: True
   steps:
   - intent: greet
   - action: utter_greet
