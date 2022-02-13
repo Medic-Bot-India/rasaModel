@@ -14,11 +14,14 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: fallback or out of scope
+- rule: out of scope
   steps:
-  - or:
-    - intent: nlu_fallback
-    - intent: out_of_scope
+  - intent: out_of_scope
+  - action: utter_please_rephrase
+
+- rule: fallback
+  steps:
+  - intent: nlu_fallback
   - action: utter_please_rephrase
 
 
@@ -38,7 +41,23 @@ rules:
   steps:
   - intent: problem_drug-info
   - action: utter_drug_info
+  wait_for_user_input: false
+
+- rule: continuation for drug info 1
+  steps:
+  - action: utter_drug_info
   - action: utter_drug_usage
+  wait_for_user_input: false
+
+- rule: continuation for drug info 1
+  steps:
+  - action: utter_drug_usage
+  - action: utter_drug_side_effects
+  wait_for_user_input: false
+
+
+- rule: continuation for drug info 2
+  steps:
   - action: utter_drug_side_effects
   - action: utter_anything-else
 
@@ -67,10 +86,14 @@ rules:
 - rule: user doesn't want help
   steps:
   - action: utter_anything-else
-  - or:
-    - intent: deny
-    - intent: goodbye
+  - intent: deny
   - action: utter_goodbye
 
+
+- rule: user doesn't want help 2
+  steps:
+  - action: utter_anything-else
+  - intent: goodbye
+  - action: utter_goodbye
 
 

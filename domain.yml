@@ -93,7 +93,7 @@ responses:
   - text: Ok Sure, you may continue to ask me
 
   utter_check_symptoms:
-  - text: "Please describe your symptoms"
+  - text: "Please describe the symptoms you are experiencing"
 
   utter_ask_about_drug:
   - text: "I can provide information, dosage and side effects of a drug. Please provide name of the drug"
@@ -127,7 +127,7 @@ responses:
       payload: /age-above-18
 
   utter_visit-doctor:
-  - text: "Please visit a hospital"
+  - text: "For longer duration of symptoms, please visit a doctor"
 
   utter_headache_image:
     - text: ''

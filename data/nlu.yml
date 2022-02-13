@@ -1115,7 +1115,16 @@ nlu:
     - chest squeezing
     - left arm in pressure
 
-
+- intent: info_on_drugs
+  examples: |
+    - i want to know information about a drug
+    - tell me dosage about a drug
+    - i want to know about a drugs dosage and precautions
+    - tell me about side effects of a drug
+    - can you tell me something about a drug
+    - i am a healthcare professional i need some information
+    - i need side effect data of a drug name
+    - i need to know correct usage of a drug
 
 - intent: problem_drug-info
   examples: |
