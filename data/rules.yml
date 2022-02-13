@@ -8,6 +8,7 @@ rules:
   - action: utter_greet
   - action: utter_select_one
 
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye

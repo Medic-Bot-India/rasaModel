@@ -5,6 +5,7 @@ intents:
   - goodbye
   - affirm
   - deny
+  - session_start
   - mood_great
   - mood_unhappy
   - bot_challenge
